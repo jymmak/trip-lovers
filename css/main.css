@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Nav*/
+.navbar-default {
+	background: rgb(233, 173, 6);
+  color: white;
+  margin: auto;
+}
+
+.span icon-bar {
+	color: white;
+}
+
+.navbar-brand i {
+	color: #F3F3D9;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	font-size: 26px;
+}
+
+.navbar-brand ul {
+	color: #F3F3D9;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+#iconosbarra li a {
+	color: #F3F3D9;
+  font-size: 3.5rem;
+}
+
+.color{
+	color: #fff;
+	background-color: #90613B;
+}
+
+
+
+
+
+
