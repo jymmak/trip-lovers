@@ -1,12 +1,17 @@
 *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
 }
 /*Nav*/
 .navbar-default {
-	background: rgb(233, 173, 6);
-  color: white;
-  margin: auto;
+	background: rgb(6, 67, 233);
+	color: white;
+	border: rgb(6, 67, 233);
+	margin: 0 auto;
 }
 
 .span icon-bar {
@@ -17,7 +22,6 @@
 	color: #F3F3D9;
 	text-align: center;
 	display: inline-block;
-	position: absolute;
 	font-size: 26px;
 }
 
@@ -25,7 +29,6 @@
 	color: #F3F3D9;
 	text-align: center;
 	display: inline-block;
-	position: relative;
 }
 
 #iconosbarra li a {
@@ -33,13 +36,40 @@
   font-size: 3.5rem;
 }
 
-.color{
-	color: #fff;
-	background-color: #90613B;
+
+/*Sección regístrate*/
+.imgtrans{
+  background-image: url("../assets/images/cusco.jpg");
+  height:92vh;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	z-index:-1;
 }
 
+.dos{
+  width: 100%;
+  margin-top: 10rem;
+  text-align: center;
+ 	color: #000;
+}
 
+.login{
+  height: 20rem;
+  width: 30rem;
+  float: right;
+  margin-top: -50rem;
+  margin-right: 6rem;
+	padding: 2rem;
+	border-radius: 10px;
+	background-color: rgb(176, 210, 211);
+}
 
-
-
-
+.log, .regist{
+  background-color : rgb(6, 67, 233);
+  color: white;
+  padding: 1vh 2vh;
+	border-color:whitesmoke;
+	margin-top: 5%;
+	margin-left: 6%;
+}
