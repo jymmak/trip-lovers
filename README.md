@@ -19,6 +19,12 @@ Para él hay algunos puntos básicos que debe tener una red social:
 Este emprendedor, además, sabe que los creadores de productos tienen que pensar siempre en los usuarios y espera que tengas en cuenta lo que necesitan los usuarios al momento de crear este producto, si piensas por ejemplo en una red social para compartir memes, o una para compartir cosas de mascotas o alguna otra para compartir tips sobre restaurantes o recetas, tendrás que tener en cuenta qué es lo que le gustaría encontrar a un usuario sobre estos temas en la red social.
 
 #### 3. Proceso
+![](assets/images/.png)
+![](assets/images/.png)
+![](assets/images/.png)
+![](assets/images/.png)
+![](assets/images/.png)
+![](assets/images/.png)
 #### 4. Recursos utilizados
 * HTML5
 * CSS
@@ -29,3 +35,7 @@ Este emprendedor, además, sabe que los creadores de productos tienen que pensar
 * Jymma
 * Lourdes Loayza.
 * Melyna Bisley.
+
+#### 6. Producto Final
+![](assets/images/.png)
+
