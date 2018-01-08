@@ -5,13 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
   <title>TRIP Lovers</title>
   <!-- Bootstrap core CSS-->
   <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="../css/sb-admin.css" rel="stylesheet">
 </head>
@@ -20,53 +18,59 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="../index.html">TRIP Lovers</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <input type="search" class="form-control" id="search-input" placeholder="Search">
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="edit-profile.html">
-            <i class="fa fa-fw fa-dashboard"></i>
+            <i class="fa fa-fw fa-user"></i>
             <span class="nav-link-text">Editar perfil</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Editar perfil">
+          <a class="nav-link" href="message.html">
+            <i class="fa fa-fw fa-commenting"></i>
+            <span class="nav-link-text">Mensajes</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
           <a class="nav-link" href="share-trips.html">
-            <i class="fa fa-fw fa-area-chart"></i>
+            <i class="fa fa-fw fa-suitcase"></i>
             <span class="nav-link-text">Compartir viajes</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="share-photos.html">
-            <i class="fa fa-fw fa-table"></i>
+            <i class="fa fa-fw fa-camera"></i>
             <span class="nav-link-text">Compartir fotos</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
           <a class="nav-link" href="friends.html">
-            <i class="fa fa-fw fa-link"></i>
+            <i class="fa fa-fw fa-users"></i>
             <span class="nav-link-text">Amigos viajeros</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
-            <i class="fa fa-fw fa-file"></i>
+            <i class="fa fa-fw fa-search"></i>
             <span class="nav-link-text">Buscar...</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseExamplePages">
             <li>
-              <a href="search-places.html">Ciudades y Paises</a>
+              <a href="search-places.html"><i class="fa fa-globe"></i> Ciudades y países</a>
             </li>
             <li>
-              <a href="search-acomodation.html">Hoteles y Restaurants</a>
+              <a href="search-acomodation.html"><i class="fa fa-building"></i> Hoteles y restaurants</a>
             </li>
             <li>
-              <a href="search-activities.html">Lugares y actividades</a>
+              <a href="search-activities.html"><i class="fa fa-bicycle"></i> Lugares y actividades</a>
             </li>
             <li>
-              <a href="search-transports.html">Transportes</a>
+              <a href="search-transports.html"><i class="fa fa-bus"></i> Transportes</a>
             </li>
           </ul>
         </li>
@@ -122,17 +126,18 @@
       </ul>
     </div>
   </nav>
+
   <div class="content-wrapper">
     <div class="container-fluid">
-      <!-- Area Chart Example-->
+      <!-- Area chart example-->
       <div class="row">
         <div class="col-lg-8">
-          <!-- Card Columns Example Social Feed-->
+          <!-- Card columns example social feed-->
           <div class="mb-0 mt-4">
-            <i class="fa fa-newspaper-o"></i> Hoteles</div>
+            <i class="fa fa-building"></i> Hoteles</div>
           <hr class="mt-2">
           <div class="card-columns">
-            <!-- Example Social Card-->
+            <!-- Example social card-->
             <div class="card mb-3">
               <a href="#">
                 <img class="card-img-top img-fluid w-100" src="https://unsplash.it/700/450?image=610" alt="">
@@ -179,7 +184,7 @@
           </div>
           <!-- /Card Columns-->
         </div>
-        
+
         <div class="col-lg-4">
           <!-- Example Notifications Card-->
           <div class="card mb-3">
@@ -216,6 +221,7 @@
         </div>
       </div>
     </div>
+
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
     <footer class="sticky-footer">
@@ -229,16 +235,12 @@
     <a class="scroll-to-top rounded" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="../vendors/jquery/jquery.min.js"></script>
-    <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Core plugin JavaScript-->
-    <script src="../vendors/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom scripts for all pages-->
-    <script src="../js/sb-admin.min.js"></script>
-
   </div>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <!-- Bootstrap core JavaScript-->
+  <script src="../vendors/jquery/jquery.min.js"></script>
+  <!-- <script src="../vendors/bootstrap/js/bootstrap.min.js"></script> -->
+  <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
