@@ -4,58 +4,65 @@
 }
 
 /*----- Nav -----*/
-.plog{
-  color:#0643e9;
-  font-size: 2.5rem;
+header{
+  background-color: black;
 }
+
 .logo{
-  width: 18%;
+  width: 17%;
   height: 15%;
-  margin-left: 55%;
+  margin-left: 15%;
 }
+
 .fa{
   font-size: 2rem;
-  color:#0643e9;
+  color:#ffffff;
 }
+
 .sear{
   margin-right: 5%;
 }
 
 .but{
-  border:1px solid #0643e9;
-  color:#0643e9;
+  border:1px solid #ffffff;
+  color:#ffffff;
 }
 
 /*----- Sección registro -----*/
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*Sección regístrate*/
-.imgtrans{
-  background-image: url("../assets/images/cusco.jpg");
-  height:92vh;
-  background-position: center;
-  background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
+
+.imgone{
+ width: 100vw;
+ height: 80vh;
 }
 
-.dos{
-  width: 100%;
-  margin-top: 10rem;
-  text-align: center;
- 	color: #000;
+.login{
+  width: 15rem;  
+  margin-top: -15rem;
+  padding: 2rem;
+	border-radius: 10px;
+  background-color: white;
 }
+
+.textimg{
+  font-size: 1.5rem;
+}
+
+.btn-primary{
+  margin-right: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 ************************
