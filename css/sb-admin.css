@@ -165,7 +165,9 @@ body.fixed-nav {
       width: 250px;
       padding: 0; }
       #mainNav.fixed-top .sidenav-toggler > .nav-item > .nav-link {
-        padding: 1em; } }
+        padding: 1em; }
+
+      }
 
 #mainNav.fixed-top.navbar-dark .sidenav-toggler {
   background-color: #456d86; }
@@ -197,7 +199,11 @@ body.sidenav-toggled #mainNav.fixed-top #sidenavToggler i {
 
 @media (min-width: 992px) {
   #mainNav.static-top .sidenav-toggler {
-    display: flex; } }
+    display: flex; }
+  #search-input {
+    width: 50%;
+  }
+   }
 
 body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
   -webkit-transform: scaleX(-1);
@@ -313,7 +319,8 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 576px) {
   .card-columns {
-    column-count: 1; } }
+    column-count: 1; }
+     }
 
 @media (min-width: 768px) {
   .card-columns {
