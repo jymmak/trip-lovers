@@ -128,49 +128,97 @@
     </div>
   </nav>
   <div class="content-wrapper">
-    <!--Section Profile Data-->
     <div class="container-fluid">
+      <!-- Area Chart Example-->
       <div class="row">
         <div class="col-lg-8">
+          <!-- Card Columns Example Social Feed-->
           <div class="mb-0 mt-4">
-            <i class="fa fa-user"></i> Perfil</div>
+            <i class="fa fa-commenting"></i> Messages</div>
           <hr class="mt-2">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="input-Name">Nombre</label>
-                <input type="text" class="form-control" id="input-Name" placeholder="Nombre">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="input-Last-Name">Apellidos</label>
-                <input type="text" class="form-control" id="input-Last-Name" placeholder="Apellidos">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="input-Email">E-mail</label>
-              <input type="email" class="form-control" id="input-Email" placeholder="E-mail">
-            </div>
-            <div class="form-group">
-              <label for="input-Phone">Celular</label>
-              <input type="text" class="form-control" id="input-Phone" placeholder="Celular">
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="input-About">Acerca de mi</label>
-                <input type="text" class="form-control" id="input-About">
+          <div class="card-columns">
+            <!-- Example Social Card-->
+            <div class="card mb-3">
+              <a href="#">
+                <img class="card-img-top img-fluid w-100" src="https://picsum.photos/700/450?image=1001" alt="">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title mb-1">
+                  <a href="#">David Miller</a>
+                </h6>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Actualizar datos</button>
-          </form>
+            <div class="card mb-3">
+              <a href="#">
+                <img class="card-img-top img-fluid w-100" src="https://picsum.photos/700/450?image=996" alt="">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title mb-1">
+                  <a href="#">David Miller</a>
+                </h6>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <a href="#">
+                <img class="card-img-top img-fluid w-100" src="https://picsum.photos/700/450?image=978" alt="">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title mb-1">
+                  <a href="#">David Miller</a>
+                </h6>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <a href="#">
+                <img class="card-img-top img-fluid w-100" src="https://picsum.photos/700/450?image=883" alt="">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title mb-1">
+                  <a href="#">David Miller</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <!-- /Card Columns-->
         </div>
-        <div class="col-lg-3">
-          <p>Foto de perfil</p>
-          <img class="card-img-top img-fluid w-100" src="https://picsum.photos/200/300?image=1027" alt="">
-          <img src="" alt="">
+        <div class="col-lg-4">
+          <!-- Example Notifications Card-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-plus"></i> Sugerencias de nuevos amigos</div>
+            <div class="list-group list-group-flush small">
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <img class="d-flex mr-3 rounded-circle" src="https://picsum.photos/60/60?image=1012" alt="">
+                  <div class="media-body">
+                    <strong>David Miller</strong>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <img class="d-flex mr-3 rounded-circle" src="https://picsum.photos/60/60?image=1011" alt="">
+                  <div class="media-body">
+                    <strong>Samantha King</strong>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <img class="d-flex mr-3 rounded-circle" src="https://picsum.photos/60/60?image=1005" alt="">
+                  <div class="media-body">
+                    <strong>Jeffery Wellings</strong>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">Ver más sugerencias...</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Section Footer Data -->
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
@@ -187,6 +235,7 @@
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/jquery/jquery.min.js"></script>
   <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
