@@ -1,5 +1,5 @@
 var tripData = {
-  'LIM': {
+  'LIMA': {
     'restaurants': [
       {
         'code': '1',
@@ -134,9 +134,10 @@ var tripData = {
             'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
           }
         ]
-      }
+      },
+    'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'AQP': {
+  'AREQUIPA': {
     'restaurants': [
       {
         'code': '1',
@@ -272,8 +273,9 @@ var tripData = {
           }
         ]
       }
+    , 'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'CUZ': {
+  'CUZCO': {
     'restaurants': [
       {
         'code': '1',
@@ -409,8 +411,9 @@ var tripData = {
           }
         ]
       }
+      ,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'AYP': {
+  'AYACUCHO': {
     'restaurants': [
       {
         'code': '1',
@@ -545,8 +548,9 @@ var tripData = {
           }
         ]
       }
+    ,    'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'IQT': {
+  'IQUITOS': {
     'restaurants': [
       {
         'code': '1',
@@ -682,8 +686,9 @@ var tripData = {
           }
         ]
       }
+,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'PIU': {
+  'PIURA': {
     'restaurants': [
       {
         'code': '1',
@@ -819,8 +824,9 @@ var tripData = {
           }
         ]
       }
+      ,   'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   },
-  'TRU': {
+  'TRUJILLO': {
     'restaurants': [
       {
         'code': '1',
@@ -956,5 +962,6 @@ var tripData = {
           }
         ]
       }
+,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
   }
 };
