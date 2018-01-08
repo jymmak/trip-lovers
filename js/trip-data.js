@@ -13,13 +13,13 @@ var tripData = {
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Rigoletto Lima',
+        'address': 'Colon Street No. 161 | Calle Colon 161, Lima 18, Perú',
+        'phone': '+51 981 483 975',
+        'price-min': 15.90,
+        'price-max': 60.90,
+        'description': 'Italiana, Peruana, Mediterránea, Fusión, Apto para vegetarianos, Opciones veganas, Opciones sin gluten',
+        'photo': '../assets/images/tripdata/LIM/restaurant_ringoletto.jpg'
       },
       {
         'code': '3',
