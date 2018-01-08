@@ -6,153 +6,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TRIP LOVERS</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
+  <!-- Bootstrap core CSS-->
+  <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-default">
-      <div class="col-xs-12 container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav" id="iconosbarra">
-            <li class="">
-              <a id="home" href="#">
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <p class="plog">
+          <strong>Trip Lovers</strong>
+        </p>
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="assets/images/logo trip lovers blanco.png" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
                 <i class="fa fa-home" aria-hidden="true"></i>
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
-            <li>
-              <a id="user" href="#">
-                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a id="mensaje" href="#">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Buscar lugares, amigos...">
-
-            </div>
-            <button type="button" class="btn btn-default">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
+          <form class="form-inline my-2 my-lg-0 sear">
+            <input class="form-control mr-sm-2 " type="search" placeholder="Buscar lugares, amigos...." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 but" type="submit">Search</button>
           </form>
         </div>
-      </div>
+      </nav>
     </nav>
   </header>
-  <!--Sección registro-->
-  <section>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 imgtrans">
-        </div>
-        <div class="dos">
-          <div class="login">
-            <h2>
-              <strong>Descubre lugares únicos</strong>
-            </h2>
-            <button type="button" class="btn btn-default btn-lg log" id="btn1" data-toggle="modal" href="#modallogin">Login</button>
-            <button type="button" class="btn btn-default btn-lg regist" id="btn2" data-toggle="modal" href="#modalregister">Register</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modal Login -->
-  <div class="modal fade" id="modallogin">
-    <div class="modal-dialog modal-xs modal-lg">
-      <div class="modal-content3">
-        <button tyle="button" class="close" id="cl2" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <p class="textlogin">
-          <strong>Inicia Sesión </strong>
-        </p>
-        <div class="form-group">
-          <input type="email" class="form-control" id="email2" placeholder="Correo Electronico: ejemplo@gmail">
-          <input type="password" class="form-control" id="pass2" placeholder="Contraseña">
-        </div>
-        <div>
-          <button type="submit" class="btn btn-default btn-lg" id="send2">
-            <strong>LOGIN</strong>
-          </button>
-          <p class="textpass">Olvidaste tu contraseña?
-            <a href="#" class="textclick">Click Aquí</a>
-          </p>
-        </div>
-        <div class="line">
-        </div>
-        <div>
-          <button type="submit" class="btn btn-default btn-lg" id="face">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <strong>Inicia con Facebook</strong>
-          </button>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Modal registrate -->
-  <div class="modal fade" id="modalregister">
-    <div class="modal-dialog modal-xs modal-lg">
-      <div class="modal-content2">
-        <button tyle="button" class="close" id="cl2" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <button type="button" class="btn btn-default btn-lg" id="regist">¿Ya tienes una cuenta?</button>
-        <p class="textactiv">O CREA UNA CUENTA NUEVA</p>
-        <div class="form-group">
-
-          <input type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
-
-          <input type="email" class="form-control" id="email" placeholder="Correo Electronico: ejemplo@gmail">
-
-          <input type="phone" class="form-control" id="phone" placeholder="Teléfono">
-
-          <input type="password" class="form-control" id="pass" placeholder="Contraseña">
-
-          <input type="city" class="form-control" id="city" placeholder="Ciudad">
-        </div>
-
-        <div class="checkbox">
-          <label>
-            <input class="checkbox" type="checkbox" value="agree">I agree to Lyft's
-            <a href="https://www.lyft.com/terms">Terms of Service</a>
-          </label>
-        </div>
-        <div>
-          <button type="submit" class="btn btn-default btn-lg" id="send">
-            <strong>ENVIAR</strong>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Sección registro-->
 
 
 
-  <!-- Sección scripts-->
+
+
+
+
+
+
+
+
+
   <!-- Bootstrap core JavaScript-->
-  <script src="../vendors/jquery/jquery.min.js"></script>
-  <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

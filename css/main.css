@@ -3,7 +3,41 @@
   --white: #ffffff;
 }
 
-/*----- Setear -----*/
+/*----- Nav -----*/
+.plog{
+  color:#0643e9;
+  font-size: 2.5rem;
+}
+.logo{
+  width: 18%;
+  height: 15%;
+  margin-left: 55%;
+}
+.fa{
+  font-size: 2rem;
+  color:#0643e9;
+}
+.sear{
+  margin-right: 5%;
+}
+
+.but{
+  border:1px solid #0643e9;
+  color:#0643e9;
+}
+
+/*----- Sección registro -----*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Sección regístrate*/
