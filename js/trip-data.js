@@ -9,7 +9,7 @@ var tripData = {
         'price-min': '',
         'price-max': '',
         'description': '',
-        'photo': ''
+        'photo': '../assets/images/tripdata/LIM/'
       },
       {
         'code': '2',
