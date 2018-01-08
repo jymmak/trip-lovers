@@ -1,3 +1,9 @@
+:root {
+  --blue: #0643e9;
+  --white: #ffffff;
+}
+
+/*----- Setear -----*/
 *{
   margin: 0 auto;
   padding: 0;
@@ -6,23 +12,24 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
-/*Nav*/
+
+/*----- Navegation -----*/
 .navbar-default {
-	background: rgb(6, 67, 233);
-	color: white;
-	border: rgb(6, 67, 233);
+	background: var(--blue);
+  border: var(--blue);
+	color: var(--white);
 	margin: 0 auto;
 }
 
 .span icon-bar {
-	color: white;
+	color: var(--white);
 }
 
 .navbar-brand i {
 	color: #F3F3D9;
+  display: inline-block;
+  font-size: 26px;
 	text-align: center;
-	display: inline-block;
-	font-size: 26px;
 }
 
 .navbar-brand ul {
