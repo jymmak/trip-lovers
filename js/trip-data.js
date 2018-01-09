@@ -206,27 +206,27 @@ var tripData = {
     'activities': [
       {
         'code': '1',
-        'name': 'El Misti',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Monasterio de Santa Catalina',
+        'address': 'Santa Catalina 301, Arequipa, Perú',
+        'price': '40',
+        'description': 'Fue construido en su totalidad con piedra sillar, el lugar tiene pequeñas callecitas y apartamentos, donde solían vivir las monjas',
+        'photo': '../assets/images/tripdata/aqp/activities_monasterio.jpg'
       },
       {
-        'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'code': '1',
+        'name': 'Yanahuara',
+        'address': 'Yanahuara, Arequipa, Perú',
+        'price': '30',
+        'description': 'Es un mirador que está a 10 minutos aproximadamente en auto del centro de la ciudad. Te brinda una linda vista de la ciudad pero sobre todo de los volcanes Misti y Pichu Pichu',
+        'photo': '../assets/images/tripdata/aqp/activities_monasterio.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'La Mansion del Fundador',
+        'address': 'San Juan de Dios 206-A | Carretera Paisajista s/n Huasacache, Hunter, Arequipa, Perú',
+        'price': '60',
+        'description': 'Esta mansión se encuentra alejada de la ciudad. El interior es muy interesante y su entorno pintorezco. Desde alli se ve todo el entorno de Arequipa. ',
+        'photo': '../assets/images/tripdata/aqp/activities_mansion.jpg'
       }
 
     ],
@@ -275,97 +275,98 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/arequipa.jpg',
+    'description': ' Arequipa es la capital y mayor ciudad del Departamento de Arequipa, es la sede del Tribunal Constitucional y la «Capital Jurídica del Perú».​ También conocida como la «Ciudad Blanca», es la segunda ciudad del Perú por población...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61238.567425654!2d-71.57403116336009!3d-16.40396711187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0xa3c4a612b9942036!2sArequipa!5e0!3m2!1ses!2spe!4v1515515234357'
   },
   'CUZCO': {
     'restaurants': [
       {
         'code': '1',
-        'name': 'El Pez On',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Kusikuy',
+        'address': 'Calle Amargura 140, Cuzco, Perú',
+        'phone': '+51 84 262870',
+        'price-min': '40',
+        'price-max': '70',
+        'description': 'Buena comida con un trato y servicio impecable ',
+        'photo': '../assets/images/tripdata/cuz/restaurant_Kusikuy.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Faustina',
+        'address': 'Calle Arequipa 251 | Entre Santa Catalina y Maruri, Cuzco, Perú',
+        'phone': '+51 84 506940',
+        'price-min': '30',
+        'price-max': '80',
+        'description': 'Entorno acogedor, restaurante muy agradable con comida de autor muy rica. ',
+        'photo': '../assets/images/tripdata/cuz/restaurant_faustina.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Nuna Raymi',
+        'address': 'Calle Triunfo 356, Cuzco, Perú',
+        'phone': '+51 84 224644',
+        'price-min': '30',
+        'price-max': '80',
+        'description': 'Muy recomendable! Buen ambiente y excelente comida',
+        'photo': '../assets/images/tripdata/cuz/restaurant_nunaraymi.jpg'
       }
     ],
     'hotels': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'JW Marriott El Convento Cusco',
+        'address': 'Esquina De La Calle Ruinas 432 y San Agustin, Cuzco, Perú',
+        'phone': '(01) 7382700',
+        'price-min': '100',
+        'price-max': '200',
+        'description': 'Buen hotel y muy cerca de los principales lugares turísticos del Cuzco, como La Plaza de Armas, las principales iglesias etc. ',
+        'photo': '../assets/images/tripdata/cuz/hotel_jwmarriott.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Tierra Viva Cusco Centro',
+        'address': 'Calle Cruz Verde 390, Cuzco, Perú',
+        'phone': '(01) 7086770',
+        'price-min': '50',
+        'price-max': '100',
+        'description': 'Hotel hermoso, amplias habitaciones muy comodas,',
+        'photo': '../assets/images/tripdata/cuz/hotel_tierraviva.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Hotel Taypikala Cusco',
+        'address': 'Calle Inticahuarina 620, Cuzco, Perú',
+        'phone': '(01) 7334500',
+        'price-min': '100',
+        'price-max': '150',
+        'description': 'Buen hotel ubicado en el centro de la ciudad cerca a restaurantes y tiendas',
+        'photo': '../assets/images/tripdata/cuz/hotel_taypikala.jpg'
       }
     ],
     'activities': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Sacsayhuamán',
+        'address': 'Cuzco, Perú',
+        'price': '70',
+        'description': 'En el sitio se pueden observar varias edificaciones prehispánicas, es un imponente sitio en forma de fortaleza y construido con grandes bloques de piedra.',
+        'photo': '../assets/images/tripdata/cuz/activitie_sacsayhuaman.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Qorikancha',
+        'address': 'Plazoleta de Santo Domingo, Cuzco, Perú',
+        'price': '80',
+        'description': 'El templo del Koricancha es una muestra clara de la mezcla de ambas culturas, donde se puede apreciar la arquitectura inca y la religiosidad católica.',
+        'photo': '../assets/images/tripdata/cuz/activitie_qorikancha.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Tambomachay',
+        'address': 'Cuzco, Perú',
+        'price': '80',
+        'description': 'Este lugar esta cerca de Cusco y tiene una vegetación y restos arqueológicos hermosos. Se puede observar cómo los Incas trataban el agua. ',
+        'photo': '../assets/images/tripdata/cuz/activitie_tambomachay.jpg'
       }
 
     ],
@@ -414,6 +415,7 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/cuzco.jpg',
+    'description': ' Cuzco o Cusco​ es una ciudad del sureste del Perú ubicada en la vertiente oriental de la cordillera de los Andes, en la cuenca del río Huatanay, afluente del Vilcanota...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124130.99749795238!2d-72.0092901234233!3d-13.529842657050684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses!2spe!4v1515515302737'
   },
   'AYACUCHO': {
@@ -552,39 +554,40 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/ayacucho.jpg',
+    'description': ' Ayacucho es una ciudad ubicada en el centro del sur de Perú. Tiene numerosas iglesias coloniales, como el templo de Santo Domingo, que destaca por su campanario de tres arcos...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62161.04524982154!2d-74.24732382855211!3d-13.158279248561671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d88f5b2bee9%3A0xe9b3cb843a70a16e!2sAyacucho!5e0!3m2!1ses!2spe!4v1515515347423'
   },
   'IQUITOS': {
     'restaurants': [
       {
         'code': '1',
-        'name': 'El Pez On',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Al Frio y Al Fuego',
+        'address': 'Av La Marina N 134-B, Iquitos, Perú',
+        'phone': '+51 965 607 474',
+        'price-min': '40',
+        'price-max': '100',
+        'description': 'Lindo lugar, buen servicio y el restaurante cuenta con su propio puerto.',
+        'photo': '../assets/images/tripdata/iqp/restaurants_frioyfuego.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Karma Cafe',
+        'address': 'Calle Napo 138 | 138 rue Napo, Iquitos, Perú',
+        'phone': '+51 65 222663',
+        'price-min': '65',
+        'price-max': '100',
+        'description': 'Música en vivo los domingos tarde. Es un local con decoración étnica del Amazonas, muy agradable.',
+        'photo': '../assets/images/tripdata/iqp/restaurants_karmacafe.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'The Yellow Rose of Texas',
+        'address': 'Calle Putumayo, 174-172, Iquitos, Perú',
+        'phone': '+51 65 231353',
+        'price-min': '30',
+        'price-max': '80',
+        'description': 'Es un restaurante acogedor, limpio y con buena atención.',
+        'photo': '../assets/images/tripdata/iqp/restaurant_yellowhouse.jpg'
       }
     ],
     'hotels': [
@@ -691,6 +694,7 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/iquitos.jpg',
+    'description': ' Iquitos es una ciudad portuaria de Perú que funciona como puerta de entrada a las cabañas en la jungla y las aldeas tribales del norte del Amazonas...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127400.42574177303!2d-73.35335589746018!3d-3.752745502401239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ea10b0e440c1cb%3A0x9210b8d7040a6692!2sIquitos!5e0!3m2!1ses!2spe!4v1515515406583'
   },
   'PIURA': {
