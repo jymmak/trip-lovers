@@ -593,59 +593,59 @@ var tripData = {
     'hotels': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Hotel Acosta',
+        'address': 'Huallaga 254, Iquitos, Perú',
+        'phone': '(065) 231761',
+        'price-min': '40',
+        'price-max': '90',
+        'description': 'Hotel muy bien ubicado cerca al centro de la ciudad',
+        'photo': '../assets/images/tripdata/iqp/hotel_acosta.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Victoria Regia Hotel & Suites',
+        'address': 'Ricardo Palma 252, Iquitos 16000, Perú',
+        'phone': '(065) 231983',
+        'price-min': '70',
+        'price-max': '150',
+        'description': 'Muy buena la experiencia de hospedarse en este hotel, el servicio, y el nivel de habitaciones son excelentes. ',
+        'photo': '../assets/images/tripdata/iqp/hotel_virginia.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'La Posada de Lobo Hotel & Suites',
+        'address': 'Calle Cabo Pantoja No 417, altura del Parque Zonal, Iquitos, Perú',
+        'phone': '(065) 236140',
+        'price-min': '50',
+        'price-max': '80',
+        'description': 'Es un lugar muy acogedor y la atención es excelente.',
+        'photo': '../assets/images/tripdata/iqp/hotel_posadadelobo.jpg'
       }
     ],
     'activities': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Pilpintuwasi Butterfly Farm',
+        'address': 'Padre Cocha, Iquitos, Perú',
+        'price': '90',
+        'description': 'Una visita imperdible, conocer la ruta del paiche, el serpentario y los mariposarios son una excelente elección.',
+        'photo': '../assets/images/tripdata/iqp/activities_pilpintuwasi.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'La Isla De Los Monos',
+        'address': 'Condamine #416, Iquitos, Perú',
+        'price': '50',
+        'description': 'Un poco lejos para llegar pero el lugar es bueno. Conexión con la naturaleza y los monitos de inicio a fin',
+        'photo': '../assets/images/tripdata/iqp/activities_monos.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Tapiche Reserve',
+        'address': 'Ricardo Palma 516, Iquitos, Perú',
+        'price': '60',
+        'description': 'Una excelente opcion para pasar el dia y estar en contacto con la naturaleza.',
+        'photo': '../assets/images/tripdata/iqp/activities_tapiche.jpg'
       }
 
     ],
@@ -701,91 +701,91 @@ var tripData = {
     'restaurants': [
       {
         'code': '1',
-        'name': 'El Pez On',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'La Tomasita',
+        'address': 'Calle Tacna 853 - 857, Piura 853-857, Perú',
+        'phone': '+51 73 321957',
+        'price-min': '40',
+        'price-max': '100',
+        'description': 'De los más conocidos restaurantes de comida regional en esta ciudad, la ambientación del restaurante es totalmente típica',
+        'photo': '../assets/images/tripdata/piu/restaurant_tomasita.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Tayanti',
+        'address': 'Calle San Ramon s/n esq. con Av. Panamericana, A 3 el Chipe, Piura 51, Perú',
+        'phone': '+51 73 623478',
+        'price-min': '30',
+        'price-max': '70',
+        'description': 'Excelente comida, muy buena atención',
+        'photo': '../assets/images/tripdata/piu/restaurant_tayanti.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Páprika',
+        'address': 'Av. Loreto 649, Piura, Perú',
+        'phone': '+51 73 302864',
+        'price-min': '40',
+        'price-max': '90',
+        'description': 'Unos piqueos muy buenos. Cocina de alta calidad. Rico ceviche, tiradito y majado de yuca. Altamente recomendable',
+        'photo': '../assets/images/tripdata/piu/restaurant_paprika.jpg'
       }
     ],
     'hotels': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'LP Los Portales Hotel Piura',
+        'address': 'Libertad 875, Piura, Perú',
+        'phone': '(073) 321161',
+        'price-min': '50',
+        'price-max': '90',
+        'description': 'Habitaciones cómodas, limpias y espaciosas. El restaurante es agradable.',
+        'photo': '../assets/images/tripdata/piu/hotel_losportales.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Suche Park Hotel',
+        'address': 'Los Cocos 472, Piura, Perú',
+        'phone': '(073) 301494',
+        'price-min': '70',
+        'price-max': '100',
+        'description': 'Es un hotel pequeño, pero las comodidades que brinda son excelentes.',
+        'photo': '../assets/images/tripdata/piu/hotel_suchepark.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Costa del Sol Wyndham Piura',
+        'address': 'Av. Loreto 649, Piura, Perú',
+        'phone': '(073) 302864',
+        'price-min': '80',
+        'price-max': '150',
+        'description': 'Es uno de los mejores hoteles en el centro de la Ciudad, habitaciones amplias muy cómodas con una excelente atención.',
+        'photo': '../assets/images/tripdata/piu/hotel_costasol.jpg'
       }
     ],
     'activities': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Basilica Catedral de Piura',
+        'address': 'Huancaveica, Piura, Perú',
+        'price': '20',
+        'description': 'Iglesia Catedral de Piura, ubicada en la Plaza de Armas de Piura, las imágenes, decoración datan de la edad media.',
+        'photo': '../assets/images/tripdata/piu/activities_catedral.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Casa Museo Almirante Miguel Grau',
+        'address': 'Calle Tacna Nº 662, Piura, Perú',
+        'price': '20',
+        'description': 'En este museo de exiben los muebles de esa época, fotografias que marran la historia de la familia de Grau, hay una hermosa maqueta replica del Monitor Huascar.',
+        'photo': '../assets/images/tripdata/piu/activities_museograu.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Museo de Sitio Narihuala',
+        'address': 'Cercado Urbano, Piura, Perú',
+        'price': '20',
+        'description': 'Muy cerca de Catacaos en la ruta a la Arena esta ubucada este centri arqueologico de la cultura Tallan.',
+        'photo': '../assets/images/tripdata/piu/activities_narihuala.jpg'
       }
 
     ],
@@ -834,97 +834,98 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/piura.jpg',
+    'description': ' Piura es la capital de la región homónima, ubicada en el noroeste de Perú. Es famosa por sus edificios coloniales, como la catedral de Piura, con su ornamentado retablo dorado...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127150.16092766092!2d-80.73684748541106!3d-5.192910926057738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a107c793c39b7%3A0x1de8948d1c01fe28!2sPiura!5e0!3m2!1ses!2spe!4v1515515441955'
   },
   'TRUJILLO': {
     'restaurants': [
       {
         'code': '1',
-        'name': 'El Pez On',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
+        'name': 'Palo Marino restaurante',
+        'address': 'Via de Evitamiento km 577.1 | Huanchaco, Trujillo 000, Perú',
+        'phone': '+51 44 735147',
+        'price-min': '30',
+        'price-max': '90',
         'description': '',
-        'photo': ''
+        'photo': '../assets/images/tripdata/tru/restaurant_palomarino.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
+        'name': 'El Mochica',
+        'address': 'Calle Bolivar 462 | Trujillo, Trujillo 3001, Perú',
+        'phone': '+51 44 293441',
+        'price-min': '20',
+        'price-max': '80',
         'description': '',
-        'photo': ''
+        'photo': '../assets/images/tripdata/tru/restaurant_elmochica.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Las Bovedas',
+        'address': 'Jr. Independencia 485, Plaza de Armas - Trujillo, Trujillo Trujillo, Perú',
+        'phone': '+51 44 232741',
+        'price-min': '30',
+        'price-max': '50',
+        'description': 'El restaurante se encuentra dentro del Hotel Libertador, frente a la plaza de armas de Trujillo. Es un ambiente limpio, cómodo, relajado.',
+        'photo': '../assets/images/tripdata/tru/restaurant_lasbovedas.jpg'
       }
     ],
     'hotels': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Hotel Libertador Trujillo',
+        'address': 'Jr. Independencia 485 | Plaza de Armas, Trujillo 51 44, Perú',
+        'phone': '(01) 7075950',
+        'price-min': '70',
+        'price-max': '150',
+        'description': 'Es un hotel super acogedor, bien ubicado y con habitaciones cómodas para descansar.',
+        'photo': '../assets/images/tripdata/tru/hotel_libertador.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Casa Andina Premium Trujillo',
+        'address': 'Av. El Golf 591, Urbanizacion, Las Flores del Golf III, Trujillo, Perú',
+        'phone': ' (044) 480760',
+        'price-min': '90',
+        'price-max': '120',
+        'description': 'Excelente atención, comodidad e instalaciones.',
+        'photo': '../assets/images/tripdata/tru/hotel_casaandina.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'phone': '',
-        'price-min': '',
-        'price-max': '',
-        'description': '',
-        'photo': ''
+        'name': 'Hotel El Gran Marqués',
+        'address': 'Calle Diaz de Cienfuegos 145 Urb. La Merced Trujillo, La Libertad, Trujillo, Perú',
+        'phone': '(044) 481710',
+        'price-min': '100',
+        'price-max': '200',
+        'description': 'Sl servicio en el Lobby y en todo el Hotel es excelente son super amables.',
+        'photo': '../assets/images/tripdata/tru/hotel_granmarquez.jpg'
       }
     ],
     'activities': [
       {
         'code': '1',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Huaca del Sol y la Luna',
+        'address': 'Campinha Moche, Trujillo, Perú',
+        'price': '50',
+        'description': 'Uno de los lugares arqueológicos por visitar en Perú. La cultura Moche en su máximo esplendor.',
+        'photo': '../assets/images/tripdata/tru/activitie_solyluna.jpg'
       },
       {
         'code': '2',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Museo Cao',
+        'address': 'El Brujo s/n, Magdalena de Cao, Trujillo, Perú',
+        'price': '40',
+        'description': 'Instalaciones nuevas ,ordenado,Limpio buenos Guías turísticos con paciencia comprensivos ,la dama de Cao muy conservada,esculturas en buen estado.',
+        'photo': '../assets/images/tripdata/tru/activitie_museocao.jpg'
       },
       {
         'code': '3',
-        'name': 'dbbn hdgfhd',
-        'address': '',
-        'price': '',
-        'description': '',
-        'photo': ''
+        'name': 'Chan Chan',
+        'address': 'Trujillo, Perú',
+        'price': '60',
+        'description': 'El lugar es muy interesante. Esta bien cuidado. Los guías están bien capacitados. Tiene buenos servicios para los visitantes. ',
+        'photo': '../assets/images/tripdata/tru/activitie_chanchan.jpg'
       }
 
     ],
@@ -973,6 +974,7 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/trujillo.jpg',
+    'description': ' Trujillo es una ciudad del noroeste de Perú conocida por la marinera (danza tradicional de la nación). En el centro colonial está la majestuosa catedral de Trujillo, cuya fachada es de color amarillo vivo, y la azulada Casa Urquiaga. ...',
     'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63197.613440084235!2d-79.05463534693341!3d-8.11666578119483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d7fe3fae92d%3A0xd3bc7d125d4e8508!2sTrujillo!5e0!3m2!1ses!2spe!4v1515515497305'
   }
 };
