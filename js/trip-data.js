@@ -95,16 +95,21 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 49.90,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
+
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 49.90,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
@@ -114,7 +119,8 @@ var tripData = {
           'price-min': 50,
           'price-max': 100,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
@@ -122,7 +128,8 @@ var tripData = {
           'price-min': 45,
           'price-max': 110,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
@@ -130,7 +137,8 @@ var tripData = {
           'price-min': 55,
           'price-max': 90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -235,16 +243,21 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 70.00,
+          'price-max': 110.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
+
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 89.00,
+          'price-max': 120.90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
@@ -254,7 +267,8 @@ var tripData = {
           'price-min': 50,
           'price-max': 100,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.png'
         },
         {
           'code': '2',
@@ -262,7 +276,8 @@ var tripData = {
           'price-min': 45,
           'price-max': 110,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.png'
         },
         {
           'code': '3',
@@ -270,7 +285,8 @@ var tripData = {
           'price-min': 55,
           'price-max': 90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -375,16 +391,20 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 50.00,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 60.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
@@ -394,23 +414,26 @@ var tripData = {
           'price-min': 50,
           'price-max': 100,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
           'name': 'Cruz del sur',
-          'price-min': 45,
-          'price-max': 110,
+          'price-min': 45.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
           'name': 'Tepsa',
-          'price-min': 55,
-          'price-max': 90,
+          'price-min': 55.00,
+          'price-max': 90.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -514,42 +537,49 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 60.90,
+          'price-max': 120.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 79.90,
+          'price-min': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
         {
           'code': '1',
           'name': 'Oltursa',
-          'price-min': 50,
-          'price-max': 100,
+          'price-min': 65.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
           'name': 'Cruz del sur',
-          'price-min': 45,
-          'price-max': 110,
+          'price-min': 45.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
           'name': 'Tepsa',
-          'price-min': 55,
-          'price-max': 90,
+          'price-min': 55.00,
+          'price-max': 90.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -654,42 +684,49 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 49.90,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 50.90,
+          'price-min': 89.90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/cavianca.png'
         }
       ],
       'bus': [
         {
           'code': '1',
           'name': 'Oltursa',
-          'price-min': 50,
-          'price-max': 100,
+          'price-min': 80.00,
+          'price-max': 150.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
           'name': 'Cruz del sur',
-          'price-min': 45,
-          'price-max': 110,
+          'price-min': 79.90,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
           'name': 'Tepsa',
-          'price-min': 55,
-          'price-max': 90,
+          'price-min': 55.90,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -794,42 +831,49 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 50.90,
+          'price-min': 99.90,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 89.90,
+          'price-max': 120.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
         {
           'code': '1',
           'name': 'Oltursa',
-          'price-min': 50,
-          'price-max': 100,
+          'price-min': 60.00,
+          'price-max': 100.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
           'name': 'Cruz del sur',
-          'price-min': 45,
-          'price-max': 110,
+          'price-min': 59.90,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
           'name': 'Tepsa',
-          'price-min': 55,
-          'price-max': 90,
+          'price-min': 55.90,
+          'price-max': 90.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
@@ -934,42 +978,49 @@ var tripData = {
         {
           'code': '1',
           'name': 'LAN',
-          'price': 99.90,
+          'price-min': 60.00,
+          'price-max': 79.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/lan.jpeg'
         },
         {
           'code': '2',
           'name': 'AVIANCA',
-          'price': 89.90,
+          'price-min': 55.00,
+          'price-max': 79.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+          'schedule': '9:00 am - 14:00 am - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
         {
           'code': '1',
           'name': 'Oltursa',
-          'price-min': 50,
-          'price-max': 100,
+          'price-min': 55.00,
+          'price-max': 100.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
           'name': 'Cruz del sur',
-          'price-min': 45,
-          'price-max': 110,
+          'price-min': 45.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
-          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
           'name': 'Tepsa',
-          'price-min': 55,
-          'price-max': 90,
+          'price-min': 55.90,
+          'price-max': 90.00,
           'frecuency': 'Todos los días',
-          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm',
+          'photo': '../assets/images/tripdata/transports/tepsa.jpg'
         }
       ]
     },
