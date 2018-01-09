@@ -135,7 +135,8 @@ var tripData = {
       ]
     },
     'photo': '../assets/images/tripdata/place/lima.jpg',
-    'description': ' Lima es la capital de Perú y está ubicada a orillas del Océano Pacífico. Es uno de los destinos más visitados del país y conocido por sus increíbles playas, una gastronomía considerada de las más interesantes de Latinoamérica, yacimientos arqueológicos impresionantes...'
+    'description': ' Lima es la capital de Perú y está ubicada a orillas del Océano Pacífico. Es uno de los destinos más visitados del país y conocido por sus increíbles playas, una gastronomía considerada de las más interesantes de Latinoamérica, yacimientos arqueológicos impresionantes...',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1997949.5065315966!2d-76.987779!3d-12.026638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses!2spe!4v1515515174964'
   },
   'AREQUIPA': {
     'restaurants': [
@@ -273,7 +274,8 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/arequipa.jpg'
+    'photo': '../assets/images/tripdata/place/arequipa.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61238.567425654!2d-71.57403116336009!3d-16.40396711187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0xa3c4a612b9942036!2sArequipa!5e0!3m2!1ses!2spe!4v1515515234357'
   },
   'CUZCO': {
     'restaurants': [
@@ -411,7 +413,8 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/cuzco.jpg'
+    'photo': '../assets/images/tripdata/place/cuzco.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124130.99749795238!2d-72.0092901234233!3d-13.529842657050684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses!2spe!4v1515515302737'
   },
   'AYACUCHO': {
     'restaurants': [
@@ -548,7 +551,8 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/ayacucho.jpg'
+    'photo': '../assets/images/tripdata/place/ayacucho.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62161.04524982154!2d-74.24732382855211!3d-13.158279248561671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d88f5b2bee9%3A0xe9b3cb843a70a16e!2sAyacucho!5e0!3m2!1ses!2spe!4v1515515347423'
   },
   'IQUITOS': {
     'restaurants': [
@@ -686,7 +690,8 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/iquitos.jpg'
+    'photo': '../assets/images/tripdata/place/iquitos.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127400.42574177303!2d-73.35335589746018!3d-3.752745502401239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ea10b0e440c1cb%3A0x9210b8d7040a6692!2sIquitos!5e0!3m2!1ses!2spe!4v1515515406583'
   },
   'PIURA': {
     'restaurants': [
@@ -824,7 +829,8 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/piura.jpg'
+    'photo': '../assets/images/tripdata/place/piura.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127150.16092766092!2d-80.73684748541106!3d-5.192910926057738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a107c793c39b7%3A0x1de8948d1c01fe28!2sPiura!5e0!3m2!1ses!2spe!4v1515515441955'
   },
   'TRUJILLO': {
     'restaurants': [
@@ -962,6 +968,7 @@ var tripData = {
         }
       ]
     },
-    'photo': '../assets/images/tripdata/place/trujillo.jpg'
+    'photo': '../assets/images/tripdata/place/trujillo.jpg',
+    'maps': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63197.613440084235!2d-79.05463534693341!3d-8.11666578119483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d7fe3fae92d%3A0xd3bc7d125d4e8508!2sTrujillo!5e0!3m2!1ses!2spe!4v1515515497305'
   }
 };
