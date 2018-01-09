@@ -95,7 +95,6 @@ function begin() {
   }
   function singOff() {
     window.location.href = '../index.html';
-
   }
   // Llamando a la funcion para que cargue los lugares
   showPlaces();
