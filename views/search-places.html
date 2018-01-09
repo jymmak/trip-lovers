@@ -12,6 +12,7 @@
   <link href="../assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="../css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -21,6 +22,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- input search -->
     <input type="search" class="form-control" id="search-input" placeholder="Search">
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
@@ -133,28 +135,32 @@
         <div class="col-lg-8">
           <!-- Card Columns Example Social Feed-->
           <div class="mb-0 mt-4">
-            <i class="fa fa-globe"></i> Ciudades</div>
+            <i class="fa fa-globe"></i> Ciudades
+          </div>
           <hr class="mt-2">
-          <div class="card-columns">
-
-
-
-
-
-
-                    <!-- /Card Columns-->
+          <!-- paneles de las ciudades .........-->
+          <div class="card-columns card-place">
+          </div>
         </div>
-        <!-- <div class="col-lg-4"> -->
+        <div class="col-lg-4">
           <!-- Example Notifications Card-->
           <div class="card mb-1">
             <div class="card-header">
-              <i class="fa fa-bell-o"></i> Destinos que podrían interesarte</div>
+              <i class="fa fa-list-alt"></i>
+              <spam class="name-place"></spam>
+            </div>
+            <div class="card-body">
+              <p class="description-place text-justify"></p>
+            </div>
+
+
             <div class="list-group list-group-flush small">
               <a class="list-group-item list-group-item-action" href="#">
                 <div class="media">
                   <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">
                   <div class="media-body">
-                    <strong>Cajamarca</strong>
+                    <strong>#Juan</strong>
+                    <p>Hermoso lugar para visitar les recomiendo</p>
                   </div>
                 </div>
               </a>
@@ -162,45 +168,40 @@
                 <div class="media">
                   <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">
                   <div class="media-body">
-                    <strong>Iquitos</strong>
+                    <strong>#Juan</strong>
+                    <p>Hermoso lugar para visitar les recomiendo</p>
                   </div>
                 </div>
               </a>
-              <a class="list-group-item list-group-item-action" href="#">
-                <div class="media">
-                  <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">
-                  <div class="media-body">
-                    <strong>Puno</strong>
-                  </div>
-                </div>
-              </a>
-              <a class="list-group-item list-group-item-action" href="#">Ver más destinos sugeridos...</a>
+
+              <a class="list-group-item list-group-item-action add-coment" href="#">Añadir comentario...</a>
+
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <!-- /.container-fluid-->
-    <!-- /.content-wrapper-->
-    <footer class="sticky-footer">
-      <div class="container">
-        <div class="text-center">
-          <small>Copyright © TRIP Lovers 2017</small>
+      <!-- /.container-fluid-->
+      <!-- /.content-wrapper-->
+      <footer class="sticky-footer">
+        <div class="container">
+          <div class="text-center" >
+            <small>Copyright © TRIP Lovers 2017</small>
+          </div>
         </div>
-      </div>
-    </footer>
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+      </footer>
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
-  </div>
+    </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <!-- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script> -->
-  <script src="../vendors/jquery/jquery.min.js"></script>
-  <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/trip-data.js"></script>
-  <script src="../js/search-place.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script> -->
+    <script src="../vendors/jquery/jquery.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/trip-data.js"></script>
+    <script src="../js/search-place.js"></script>
 
 
 </body>

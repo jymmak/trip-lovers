@@ -8,8 +8,8 @@ var tripData = {
         'phone': '+51 1 7130860',
         'price-min': 22.90,
         'price-max': 45.90,
-        'description': 'Peruana, Latina, Mariscos',
-        'photo': '../assets/images/tripdata/LIM/restaurant_el_pez_on.jpg'
+        'description': 'Comida peruana, latina, mariscos. Reserva online en los mejores restaurantes de Lima, Perú.',
+        'photo': '../assets/images/tripdata/lim/restaurant_el_pez_on.jpg'
       },
       {
         'code': '2',
@@ -18,8 +18,8 @@ var tripData = {
         'phone': '+51 981 483 975',
         'price-min': 15.90,
         'price-max': 60.90,
-        'description': 'Italiana, Peruana, Mediterránea, Fusión, Apto para vegetarianos, Opciones veganas, Opciones sin gluten',
-        'photo': '../assets/images/tripdata/LIM/restaurant_ringoletto.jpg'
+        'description': 'Comida italiana, peruana, mediterránea, fusión, apto para vegetarianos.',
+        'photo': '../assets/images/tripdata/lim/restaurant_ringoletto.jpg'
       },
       {
         'code': '3',
@@ -28,9 +28,10 @@ var tripData = {
         'phone': '435-8656',
         'price-min': 20.90,
         'price-max': 59.90,
-        'description': 'Peruana, Latina, Mariscos',
-        'photo': '../assets/images/tripdata/LIM/restaurant_punto_azul.jpg'
-      }],
+        'description': 'Punto Azul sigue creciendo con la misma línea de sabor y concepto culinario peruano que mantiene desde el primer día',
+        'photo': '../assets/images/tripdata/lim/restaurant_punto_azul.jpg'
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -39,18 +40,18 @@ var tripData = {
         'phone': '43534343',
         'price-min': 183.00,
         'price-max': 255.00,
-        'description': 'Internet de alta velocidad gratuito (WiFi), Bar/Salón',
-        'photo': '../assets/images/tripdata/LIM/hotels_ibis_larco_miraflores.jpg'
+        'description': 'Este moderno hotel urbano, ubicado en un edificio de hormigón en una calle principal del distrito de Reducto, se encuentra a 5 minutos a pie del centro comercial Larcomar',
+        'photo': '../assets/images/tripdata/lim/hotels_ibis_larco_miraflores.jpg'
       },
       {
         'code': '2',
-        'name': 'Hotel Peru Pacifico',
-        'address': 'Av. Cuba 127 Jesus Maria, Lima, Perú',
+        'name': 'Hotel Perú Pacífico',
+        'address': 'Av. Cuba 127 Jesús María, Lima, Perú',
         'phone': '43232323',
         'price-min': 93.00,
         'price-max': 140.00,
-        'description': 'El Hotel Perú Pacífico se encuentra en Lima, a 10 minutos a pie del parque de las Aguas. Hay conexión WiFi gratuita. Las habitaciones disponen de armario y TV.',
-        'photo': '../assets/images/tripdata/LIM/hotels_pacifico.jpg'
+        'description': 'El Hotel Perú Pacífico se encuentra en Lima, a 10 minutos a pie del parque de las Aguas. Hay conexión wiFi gratuita. Las habitaciones disponen de armario y TV.',
+        'photo': '../assets/images/tripdata/lim/hotels_pacifico.jpg'
       },
       {
         'code': '3',
@@ -60,17 +61,17 @@ var tripData = {
         'price-min': 96.00,
         'price-max': 150.00,
         'description': 'Servicio de habitación, estacionamiento gratis, restaurante, bar/Salón y estacionamiento gratis',
-        'photo': '../assets/images/tripdata/LIM/hotels_hotel_mega.jpg'
+        'photo': '../assets/images/tripdata/lim/hotels_hotel_mega.jpg'
       }
     ],
     'activities': [
       {
         'code': '1',
-        'name': 'Circuito Magico del Agua',
+        'name': 'Circuito Mágico del Agua',
         'address': 'Jr. Madre de Dios S/N, Cercado de Lima',
         'price': 4.00,
         'description': 'Considerado uno de los atractivos turísticos más espectaculares y visitados de Lima, el cual brinda escenas inolvidables de color, música, agua, luz, magia y encanto.',
-        'photo': '../assets/images/tripdata/LIM/activities_circuito_magico.jpg'
+        'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
       },
       {
         'code': '2',
@@ -78,64 +79,63 @@ var tripData = {
         'address': 'Calle General Borgoño Cuadra, 8 | Miraflores',
         'price': 15.00,
         'description': 'Huaca Pucllana es un sitio arqueológico perteneciente a la cultura Lima, del periodo de los desarrollos regionales',
-        'photo': '../assets/images/tripdata/LIM/activities_huaca_pucllana.jpg'
+        'photo': '../assets/images/tripdata/lim/activities_huaca_pucllana.jpg'
       },
       {
         'code': '3',
         'name': 'Museo Larco',
-        'address': 'Avenida Bolivar 1515 | Pueblo Libre, Lima Lima 21, Perú',
+        'address': 'Avenida Bolivar 1515 | Pueblo Libre, Lima, Perú',
         'price': 12.00,
         'description': 'Exhibe galerías que muestran los 3000 años de desarrollo de la historia del Perú precolombino.',
         'photo': '../assets/images/tripdata/LIM/activities_museo_larco.jpg'
       }
-
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      },
-    'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/lima.jpg',
+    'description': ' Lima es la capital de Perú y está ubicada a orillas del Océano Pacífico. Es uno de los destinos más visitados del país y conocido por sus increíbles playas, una gastronomía considerada de las más interesantes de Latinoamérica, yacimientos arqueológicos impresionantes...'
   },
   'AREQUIPA': {
     'restaurants': [
@@ -146,8 +146,8 @@ var tripData = {
         'phone': '+51 54 206020',
         'price-min': 12.50,
         'price-max': 39.90,
-        'description': 'Si bien la oferta gastronómica es amplia y variada, muchas veces ante tanta diversidad de opciones no sabemos cual elegir. ',
-        'photo': '../assets/images/tripdata/LIM/restaurants_zig_zag_restaurant.jpg'
+        'description': 'Si bien la oferta gastronómica es amplia y variada, muchas veces ante tanta diversidad de opciones no sabemos cual elegir.',
+        'photo': '../assets/images/tripdata/aqp/restaurants_zig_zag_restaurant.jpg'
       },
       {
         'code': '2',
@@ -156,8 +156,8 @@ var tripData = {
         'phone': '+51 54 212918',
         'price-min': 15.00,
         'price-max': 60.90,
-        'description': 'Nosotros somos HATUNPA y nuestra pasion son las PAPAS. Nuestro concepto es una base de papas sancochadas, servidas en rodaja con su cáscara. Tenemos rellenos frios y calientes; con carne de res, alpaca, pollo, atun y vegetales; con sabores peruanos e internacionales. Esperamos que lo disfrute !!!',
-        'photo': '../assets/images/tripdata/LIM/restaurants_hatunpa.jpg'
+        'description': 'Nosotros somos HATUNPA y nuestra pasión son las PAPAS. Tenemos rellenos fríos y calientes; con carne de res, alpaca, pollo, atún y vegetales; con sabores peruanos e internacionales. Esperamos que lo disfrute !!!',
+        'photo': '../assets/images/tripdata/aqp/restaurants_hatunpa.jpg'
       },
       {
         'code': '3',
@@ -166,9 +166,10 @@ var tripData = {
         'phone': '+51 54 215110',
         'price-min': 10.00,
         'price-max': 49.90,
-        'description': 'Reservaciones, Asientos al aire libre, Asiento, Meseros, Estacionamiento disponible, Estacionamiento para clientes, Sillitas altas disponibles, Acceso para silla de ruedas, Sirve alcohol, Bar completo, Acepta American Express, Acepta Mastercard, Acepta Visa, Wi-Fi gratis, Acepta tarjetas de crédito',
-        'photo': '../assets/images/tripdata/LIM/restaurants_los_robles.jpg'
-      }],
+        'description': 'Reservaciones, asientos al aire libre, asiento, meseros, estacionamiento disponible, estacionamiento para clientes, bar completo, acepta American Express, acepta Mastercard, acepta Visa, wi-Fi gratis, acepta tarjetas de crédito',
+        'photo': '../assets/images/tripdata/aqp/restaurants_los_robles.jpg'
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -177,8 +178,8 @@ var tripData = {
         'phone': '43543433',
         'price-min': 45.00,
         'price-max': 48.00,
-        'description': 'Internet de alta velocidad gratuito (WiFi), desayuno incluido y Centro de negocios con acceso a Internet',
-        'photo': '../assets/images/tripdata/LIM/hotels_la_reyna.jpg'
+        'description': 'Internet de alta velocidad gratuito (wifi), desayuno incluido y centro de negocios con acceso a internet',
+        'photo': '../assets/images/tripdata/aqp/hotels_la_reyna.jpg'
       },
       {
         'code': '2',
@@ -188,17 +189,17 @@ var tripData = {
         'price-min': 50.00,
         'price-max': 85.00,
         'description': 'Traslado en bus, estacionamiento gratis, transporte desde/al aeropuerto y desayuno incluido',
-        'photo': '../assets/images/tripdata/LIM/hotels_illari.jpg'
+        'photo': '../assets/images/tripdata/aqp/hotels_illari.jpg'
       },
       {
         'code': '3',
-        'name': 'La Mansion del Sol',
+        'name': 'La Mansión del Sol',
         'address': 'Calle Santa Martha 208-B, Arequipa 001, Perú',
         'phone': '45434343',
         'price-min': 95.00,
         'price-max': 132.00,
-        'description': 'Servicio de habitación, estacionamiento gratis y internet de alta velocidad gratuito (WiFi)',
-        'photo': '../assets/images/tripdata/LIM/hotels_la_mansion_del_sol.jpg'
+        'description': 'Servicio de habitación, estacionamiento gratis y internet de alta velocidad gratuito (wifi)',
+        'photo': '../assets/images/tripdata/aqp/hotels_la_mansion_del_sol.jpg'
       }
     ],
     'activities': [
@@ -228,52 +229,51 @@ var tripData = {
       }
 
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-    , 'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/arequipa.jpg'
   },
   'CUZCO': {
     'restaurants': [
@@ -306,7 +306,8 @@ var tripData = {
         'price-max': '',
         'description': '',
         'photo': ''
-      }],
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -366,52 +367,51 @@ var tripData = {
       }
 
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-      ,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/cuzco.jpg'
   },
   'AYACUCHO': {
     'restaurants': [
@@ -444,7 +444,8 @@ var tripData = {
         'price-max': '85',
         'description': 'Un ambiente agradable, cerca a la plaza de armas, excelente atención y muy buena comida.',
         'photo': '../assets/images/tripdata/ayp/restaurant_pukashuasi.jpg'
-      }],
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -503,52 +504,51 @@ var tripData = {
         'photo': '../assets/images/tripdata/ayp/activitie_pampasgaleras.jpg'
       }
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-    ,    'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/ayacucho.jpg'
   },
   'IQUITOS': {
     'restaurants': [
@@ -581,7 +581,8 @@ var tripData = {
         'price-max': '',
         'description': '',
         'photo': ''
-      }],
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -641,52 +642,51 @@ var tripData = {
       }
 
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/iquitos.jpg'
   },
   'PIURA': {
     'restaurants': [
@@ -719,7 +719,8 @@ var tripData = {
         'price-max': '',
         'description': '',
         'photo': ''
-      }],
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -779,52 +780,51 @@ var tripData = {
       }
 
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-      ,   'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/piura.jpg'
   },
   'TRUJILLO': {
     'restaurants': [
@@ -857,7 +857,8 @@ var tripData = {
         'price-max': '',
         'description': '',
         'photo': ''
-      }],
+      }
+    ],
     'hotels': [
       {
         'code': '1',
@@ -917,51 +918,50 @@ var tripData = {
       }
 
     ],
-    'transports':
-      {
-        'airplane': [
-          {
-            'code': '1',
-            'name': 'LAN',
-            'price': 99.90,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'AVIANCA',
-            'price': 89.90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 14:00 am - 18:00 pm'
-          }
-        ],
-        'bus': [
-          {
-            'code': '1',
-            'name': 'Oltursa',
-            'price-min': 50,
-            'price-max': 100,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '2',
-            'name': 'Cruz del sur',
-            'price-min': 45,
-            'price-max': 110,
-            'frecuency': 'Todos los días',
-            'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
-          },
-          {
-            'code': '3',
-            'name': 'Tepsa',
-            'price-min': 55,
-            'price-max': 90,
-            'frecuency': 'Todos los días',
-            'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
-          }
-        ]
-      }
-,  'photo': '../assets/images/tripdata/lim/activities_circuito_magico.jpg'
+    'transports': {
+      'airplane': [
+        {
+          'code': '1',
+          'name': 'LAN',
+          'price': 99.90,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'AVIANCA',
+          'price': 89.90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 14:00 am - 18:00 pm'
+        }
+      ],
+      'bus': [
+        {
+          'code': '1',
+          'name': 'Oltursa',
+          'price-min': 50,
+          'price-max': 100,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '2',
+          'name': 'Cruz del sur',
+          'price-min': 45,
+          'price-max': 110,
+          'frecuency': 'Todos los días',
+          'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm'
+        },
+        {
+          'code': '3',
+          'name': 'Tepsa',
+          'price-min': 55,
+          'price-max': 90,
+          'frecuency': 'Todos los días',
+          'schedule': '9:00 am - 11:00 am - 14:00 pm - 15:00 pm - 18:00 pm'
+        }
+      ]
+    },
+    'photo': '../assets/images/tripdata/place/trujillo.jpg'
   }
 };
