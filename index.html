@@ -70,16 +70,91 @@
               <h2 class="textimg">
                 <strong>Descubre lugares únicos</strong>
               </h2>
-              <button type="button" class="btn btn-primary">Login</button>
-              <button type="button" class="btn btn-primary">Register</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                Login
+              </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registerModal">
+                Register
+              </button>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
+  <!-- Modales-->
+  <!--  Modal Login-->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h5 class="modal-title titlemodal" id="exampleModalLabel">
+            <strong>Inicia Sesión</strong>
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="email2" placeholder="Correo Electronico">
+          <input type="password" class="form-control" id="pass2" placeholder="Contraseña">
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary" id="send2">Login</button>
+          <p class="textpass">Olvidaste tu contraseña?
+            <a href="#" class="textclick">Click Aquí</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal Register-->
+
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content conten2">
+        <div class="modal-header">
+          <button type="button" class="btn btn-default btn-lg" id="regist">¿Ya tienes una cuenta?</button>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </div>
+        <div>
+          <p class="textactiv">O CREA UNA CUENTA NUEVA</p>
+        </div>
+        <div class="form-group">
+
+          <input type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
+
+          <input type="email" class="form-control" id="email" placeholder="Correo Electronico: ejemplo@gmail">
+
+          <input type="phone" class="form-control" id="phone" placeholder="Teléfono">
+
+          <input type="password" class="form-control" id="pass" placeholder="Contraseña">
+
+          <input type="city" class="form-control" id="city" placeholder="Ciudad">
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input class="checkbox" type="checkbox" value="agree">I agree to Lyft's
+            <a href="https://www.lyft.com/terms">Terms of Service</a>
+          </label>
+        </div>
+        <div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -88,16 +163,10 @@
 
 
 
-
-
-
-
-
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script src="vendors/jquery/jquery.min.js"></script>
-  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

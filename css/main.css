@@ -28,9 +28,7 @@ header{
   color:#ffffff;
 }
 
-/*----- Sección registro -----*/
 
-/*Sección regístrate*/
 
 .imgone{
  width: 100vw;
@@ -53,14 +51,59 @@ header{
   margin-right: 2.5%;
 }
 
+/*Sección modal login*/
+.titlemodal{
+ margin-left: 35%;
+}
+#email2, #pass2{
+  margin-left: 17%;
+	margin-top: 4%;
+	width: 70%;
+}
 
+#inputs{
+  width:initial;
+}
 
+#send2{
+  width: 25%;
+	margin-left: 38%;
+	margin-bottom: 4%;
+}
 
+.textpass{
+	text-align: center;
+	padding-top: 1%;
+}
 
+/*Sección modal register*/
 
+#regist{
+  background-color: #000000;
+  color: #fff;
+  border:none;
+  margin-top:5%;
+  margin-left: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
+.textactiv{
+  margin-left: 35%;
+  margin-top: 2%;
+}
 
+#name, #email, #phone, #pass, #city{
+  margin-left: 17%;
+	margin-top: 2%;
+	width: 70%;
+}
 
+.checkbox{
+	margin-left: 13%;
+}
 
 
 
