@@ -15,13 +15,13 @@ function begin() {
     // recorrido de cada uno de los lugares que se almacenó
     for (var i = 0; i < arrPlace.length; i++) {
       var cardPlace = '<div class="card">' +
-        '<a href="#"> <img class="card-img-top" src="' + dataPlace[arrPlace[i]]['photo'] + '" alt="' + arrPlace[i] + '"></a>' +
-        '<div class="card-body d-flex justify-content-between">' +
-        '<h6 class="card-title mb-1 d-inline">' +
-        '<a href="#">' + arrPlace[i] + '</a>' +
-        '</h6> <spam class="view-modal"><i class="fa fa-eye"></i></spam>' +
-        '</div>' +
-        '</div>';
+                        '<a href="#"> <img class="card-img-top" src="' + dataPlace[arrPlace[i]]['photo'] + '" alt="' + arrPlace[i] + '"></a>' +
+                        '<div class="card-body d-flex justify-content-between">' +
+                          '<h6 class="card-title mb-1 d-inline">' +
+                            '<a href="#">' + arrPlace[i] + '</a>' +
+                          '</h6>' +
+                        '</div>' +
+                      '</div>';
       listPlaces += cardPlace;
     }
     $boxPlace.html(listPlaces);
@@ -33,6 +33,7 @@ function begin() {
     if (detailsPlace) {
       $('.name-place').text($(this).text());
       $('.description-place').text(detailsPlace['description']);
+      $('.img-maps').attr('src', (detailsPlace['maps']));
     }
   }
 
@@ -92,12 +93,16 @@ function begin() {
       $('.card-place div').show(); // mostrar todos las listas
     }
   }
+  function singOff() {
+    window.location.href = '../index.html';
+  }
   // Llamando a la funcion para que cargue los lugares
   showPlaces();
   // eventos
   $('.card-place a').click(showDetailsPlace); // cuando se hace click al nombre del lugar mostrar los detalles
   $('.add-coment').click(addComentForm); // cuando se hace click en (Añadir comentarios...) se muestra el formulario
   $('#search-input').on('keyup', searchPlace); // cada vez que inserto un valor en el input que me busque el lugar para mostrarlo
+  $('.sign-off').click(singOff);
 }
 
 $(document).ready(begin);

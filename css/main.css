@@ -2,7 +2,9 @@
   --blue: #0643e9;
   --white: #ffffff;
 }
-
+/* html{
+  background-color: white;
+} */
 /*----- Nav -----*/
 header{
   background-color: black;
@@ -121,4 +123,8 @@ header{
 }
 #form-comment {
   padding: 2vh;
+}
+
+.vh-100 {
+  height: 100;
 }

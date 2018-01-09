@@ -1,12 +1,8 @@
-/*!
- * Start Bootstrap - SB Admin v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/sb-admin)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
- */
 
 html {
-  position: relative;
+  background-color: white;
   min-height: 100%;
+  position: relative;
 }
 
 body {
@@ -205,7 +201,7 @@ body.fixed-nav {
 
 @media (min-width: 992px) {
   #mainNav.fixed-top .navbar-sidenav {
-    height: calc(100vh - 112px);
+    height: 100vh;
   }
   #mainNav.fixed-top .sidenav-toggler {
     position: absolute;
