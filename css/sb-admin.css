@@ -451,6 +451,7 @@ footer.sticky-footer {
   height: 56px;
   background-color: #e9ecef;
   line-height: 55px;
+ 
 }
 
 @media (min-width: 992px) {
@@ -463,4 +464,18 @@ footer.sticky-footer {
   body.sidenav-toggled footer.sticky-footer {
     width: calc(100% - 55px);
   }
+}
+
+.two{
+  margin-left: 10%;
+  width: 100%;
+  padding-bottom: 20%;
+}
+.chat{
+	height: 400px;
+	background-color: rgb(184, 159, 159);
+}
+
+#send{
+  background-color: #456d86;
 }
