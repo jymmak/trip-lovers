@@ -1,5 +1,5 @@
 function begin() {
-  // Obtiene el onjeto de los lugares
+  // Obtiene el objeto de los lugares
   var dataPlace = getPlace();
   // Almacena los nombres de los lugares en un arreglo
   var arrPlace = Object.keys(dataPlace);
