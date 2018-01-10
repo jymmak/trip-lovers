@@ -6,7 +6,7 @@ Desarrollar una red social para aquellos usuarios que quieren viajar.
 
 #### 2. Descripción del proyecto:
 
-![trip-lovers](assets/docs/logo-blanco-readme.png)
+![trip-lovers](assets/docs/logo-blanco - readme.png)
 
 Los motivos para viajar son incalculables y dependen de cada persona. En ocasiones se viaja para romper con la rutina, para tomar distancia de lo cotidiano, para conocer y experimentar nuevas culturas, para ver “ese” templo o monumento que tanto te ha hecho suspirar al admirarlo en fotos. También se viaja para conocer gente, para conocerse a una misma, para conocer los propios límites e incluso para desdibujarlos y trazarlos “un poquito más allá”. Se viaja por la adrenalina, por amor al viaje, por placer a lo desconocido y por miedo a lo desconocido. A veces se viaja simplemente porque sí y en resumen esa es la razón de ser de nuestra red social Trip Lovers.
 
