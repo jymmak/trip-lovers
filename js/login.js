@@ -1,13 +1,16 @@
-
+/*
 function entrar() {
   var email2 = document.getElementById('email2').value;
-  var contrasena2 = document.getElementById('contrasena2').value;
+  var pass2 = document.getElementById('pass2').value;
 
-  firebase.auth().signInWithEmailAndPassword(email2, contrasena2).catch(function (error) {
+  firebase.auth().signInWithEmailAndPassword(email2, pass2).catch(function (error) {
     // Handle Errors here.
     var errorCode = error.code;
     var errorMessage = error.message;
     // ...
+    document.getElementById('email2').value="";
+    document.getElementById('pass2').value="";
+    
   });
 }
 
@@ -30,14 +33,24 @@ function observador() {
     } else {
       // User is signed out.
       console.log('no existe un usuario activo');
+
       // ...
     }
   });
+  
 }
-observador();
+console.log(observador());
 
 function aparece() {
+  /*
   var contenido = document.getElementById('contenido');
   contenido.innerHTML = "Solo lo ve usuario activo";
+  //window.location.href='../views/news.html';
+  window.location.href='news.html';
 }
 
+$(document).ready(function(){
+    entrar();
+    
+  }
+)*/
