@@ -12,6 +12,10 @@
   <link href="../assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="../css/sb-admin.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="">
+
+
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -141,6 +145,17 @@
           <div class="mb-0 mt-4">
             <i class="fa fa-commenting"></i> Messages</div>
           <hr class="mt-2">
+
+          <div class="chat" id="chat">
+            <!--posteo-->
+          </div>
+          <div class="input-group input-group-lg pull-left" id="caja">
+            <span class="input-group-addon glyphicon glyphicon-pencil" id="sizing-addon1"></span>
+            <input id="comment" type="text" class="form-control" placeholder="Escribe tu mensaje" aria-describedby="sizing-addon1">
+            <span class="input-group-btn">
+              <button class="btn btn-default boton group-addon" type="button" id="send">Enviar</button>
+            </span>
+          </div>
         </div>
         <div class="col-lg-4">
           <!-- Example Notifications Card-->
@@ -154,25 +169,7 @@
       </div>
     </div>
 
-    <!--Chat-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="two">
-          <div class="panel-body conversation col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            <div class="chat" id="chat">
-              <!--posteo-->
-            </div>
-            <div class="input-group input-group-lg pull-left" id="caja">
-              <span class="input-group-addon glyphicon glyphicon-pencil" id="sizing-addon1"></span>
-              <input id="comment" type="text" class="form-control" placeholder="Escribe tu mensaje" aria-describedby="sizing-addon1">
-              <span class="input-group-btn">
-                <button class="btn btn-default boton group-addon" type="button" id="send">Enviar</button>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
 
     <!-- Bootstrap core JavaScript-->

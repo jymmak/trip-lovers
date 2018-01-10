@@ -451,7 +451,7 @@ footer.sticky-footer {
   height: 56px;
   background-color: #e9ecef;
   line-height: 55px;
- 
+
 }
 
 @media (min-width: 992px) {
@@ -465,6 +465,188 @@ footer.sticky-footer {
     width: calc(100% - 55px);
   }
 }
+/*****************/
+:root {
+  --blue: #0643e9;
+  --white: #ffffff;
+}
+
+/*----- Nav -----*/
+header{
+  background-color: black;
+  height: 20vh;
+}
+#section-login {
+  background: rgba(254, 254, 254, 0.8);
+  /* border: 1px solid red; */
+  padding: 10vh 5vh;
+  border-radius: 5px;
+  margin-top: 25vh;
+}
+
+#img-font {
+  background: url('../assets/images/fondo.jpg');
+  background-size: cover;
+  /* border: 1px solid red; */
+  height: 100vh;
+  background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+.login img {
+  width: 50px;
+  height: 50px;
+}
+.logo{
+  /* width: 17%;
+  height: 15%;
+  margin-left: 15%; */
+}
+
+.fa-{
+  font-size: 2rem;
+  color:#ffffff;
+}
+
+.sear{
+  margin-right: 5%;
+}
+
+.but{
+  /* border:1px solid #ffffff; */
+  color:#ffffff;
+}
+
+
+
+.imgone{
+ width: 100vw;
+ height: 80vh;
+}
+
+.login{
+  margin-top: 20vh;
+  padding: 2rem;
+	border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.78);
+  /* opacity: .5; */
+}
+
+.textimg{
+  font-size: 1.5rem;
+}
+
+.btn-primary-{
+  margin-right: 2.5%;
+}
+
+/*Sección modal login*/
+.titlemodal{
+ margin-left: 35%;
+}
+#email2, #pass2{
+  margin-left: 17%;
+	margin-top: 4%;
+	width: 70%;
+}
+
+#inputs{
+  width:initial;
+}
+
+#send2{
+  width: 25%;
+	margin-left: 38%;
+	margin-bottom: 4%;
+}
+
+.textpass{
+	text-align: center;
+	padding-top: 1%;
+}
+
+/*Sección modal register*/
+
+#regist{
+  background-color: #000000;
+  color: #fff;
+  border:none;
+  margin-top:5%;
+  margin-left: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.textactiv{
+  margin-left: 35%;
+  margin-top: 2%;
+}
+
+#name, #email, #phone, #pass, #city{
+  margin-left: 17%;
+	margin-top: 2%;
+	width: 70%;
+}
+
+.checkbox{
+	margin-left: 13%;
+}
+
+/************/
+.card-columns .card img {
+  /* height: 25vh; */
+}
+.card-columns .card img {
+  /* border: 1px solid red; */
+  /* height:  200px; */
+}
+
+/* .card-columns .card img:hover {
+  padding: 10px;
+  border: 1.5px solid rgb(0, 0, 0);
+  /* opacity: .5; */
+/*} */
+#form-comment {
+  padding: 2vh;
+}
+
+.vh-100 {
+  height: 100;
+}
+
+
+/*Transportes*/
+
+.card-transport p{
+  font-size: 14px;
+}
+.text-price {
+  color: rgb(171, 171, 171);
+}
+
+.text-price span{
+  color: rgb(25, 69, 136);
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+img[alt='logo-agency']{
+  height: 25px;
+  width: 25%;
+}
+
+/********/
+.card-hotel img{
+  height: 20vh
+}
+.card-hotel p {
+  font-size: 14px;
+}
+.card-hotel .text-description {
+  font-size: 13px;
+}
+
 
 .two{
   margin-left: 10%;
@@ -474,9 +656,17 @@ footer.sticky-footer {
 }
 .chat{
 	height: 400px;
-	background-color: #c8dce7;
+	background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5vh;
+  /* background: url('../assets/images/fondo-chat.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
 #send{
-  background-color: #456d86;
+  background-color: rgb(124, 124, 124);
+  color: white;
 }
