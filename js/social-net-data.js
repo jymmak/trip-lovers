@@ -8,7 +8,7 @@ var socialNetData = {
       'photo': 'https://picsum.photos/700/450?image=996',
       'trips': [
         {
-          'picture': '../assets/images/socialnetdata/usertrips/user1(1).jpg',
+          'picture': ['../assets/images/socialnetdata/usertrips/user1(1).jpg'],
           'post': '100% recomendado...'
         }
       ]
