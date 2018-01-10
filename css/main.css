@@ -4,7 +4,7 @@
 }
 
 /*----- Nav -----*/
-header{
+header {
   background-color: black;
   height: 20vh;
 }
@@ -22,40 +22,33 @@ header{
   /* border: 1px solid red; */
   height: 100vh;
   background-repeat: no-repeat;
-   background-position: 50% 50%;
+  background-position: 50% 50%;
 }
 .login img {
   width: 50px;
   height: 50px;
 }
-.logo{
-  /* width: 17%;
-  height: 15%;
-  margin-left: 15%; */
-}
 
-.fa-{
+.fa- {
   font-size: 2rem;
   color:#ffffff;
 }
 
-.sear{
+.sear {
   margin-right: 5%;
 }
 
-.but{
+.but {
   /* border:1px solid #ffffff; */
   color:#ffffff;
 }
 
-
-
-.imgone{
+.imgone {
  width: 100vw;
  height: 80vh;
 }
 
-.login{
+.login {
   margin-top: 20vh;
   padding: 2rem;
 	border-radius: 10px;
@@ -63,42 +56,43 @@ header{
   /* opacity: .5; */
 }
 
-.textimg{
+.textimg {
   font-size: 1.5rem;
 }
 
-.btn-primary-{
+.btn-primary- {
   margin-right: 2.5%;
 }
 
 /*Sección modal login*/
-.titlemodal{
+.titlemodal { 
  margin-left: 35%;
 }
-#email2, #pass2{
+
+#email2, #pass2 {
   margin-left: 17%;
 	margin-top: 4%;
 	width: 70%;
 }
 
-#inputs{
+#inputs {
   width:initial;
 }
 
-#send2{
+#send2 {
   width: 25%;
 	margin-left: 38%;
 	margin-bottom: 4%;
 }
 
-.textpass{
+.textpass {
 	text-align: center;
 	padding-top: 1%;
 }
 
 /*Sección modal register*/
 
-#regist{
+#regist {
   background-color: #000000;
   color: #fff;
   border:none;
@@ -110,35 +104,21 @@ header{
   padding-bottom: 3%;
 }
 
-.textactiv{
+.textactiv {
   margin-left: 35%;
   margin-top: 2%;
 }
 
-#name, #email, #phone, #pass, #city{
+#name, #email, #phone, #pass, #city {
   margin-left: 17%;
 	margin-top: 2%;
 	width: 70%;
 }
 
-.checkbox{
+.checkbox {
 	margin-left: 13%;
 }
 
-/************/
-.card-columns .card img {
-  /* height: 25vh; */
-}
-.card-columns .card img {
-  /* border: 1px solid red; */
-  /* height:  200px; */
-}
-
-/* .card-columns .card img:hover {
-  padding: 10px;
-  border: 1.5px solid rgb(0, 0, 0);
-  /* opacity: .5; */
-/*} */
 #form-comment {
   padding: 2vh;
 }
@@ -147,29 +127,27 @@ header{
   height: 100;
 }
 
-
 /*Transportes*/
 
-.card-transport p{
+.card-transport p { 
   font-size: 14px;
 }
 .text-price {
   color: rgb(171, 171, 171);
 }
 
-.text-price span{
+.text-price span {
   color: rgb(25, 69, 136);
   font-size: 24px;
   padding-right: 10px;
 }
 
-img[alt='logo-agency']{
+img[alt='logo-agency'] {
   height: 25px;
   width: 25%;
 }
 
-/********/
-.card-hotel img{
+.card-hotel img { 
   height: 20vh
 }
 .card-hotel p {
@@ -180,7 +158,6 @@ img[alt='logo-agency']{
 }
 
 /*General stryles*/
-
 
 html {
   background-color: white;
