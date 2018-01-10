@@ -12,6 +12,19 @@
   <link href="assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+      authDomain: "trip-lovers.firebaseapp.com",
+      databaseURL: "https://trip-lovers.firebaseio.com",
+      projectId: "trip-lovers",
+      storageBucket: "trip-lovers.appspot.com",
+      messagingSenderId: "234184574226"
+    };
+    firebase.initializeApp(config);
+  </script>
 </head>
 
 <body>
@@ -101,7 +114,7 @@
           <input type="password" class="form-control" id="pass2" placeholder="Contraseña">
         </div>
         <div>
-          <button onclick="registrar()" type="button" class="btn btn-primary" id="send2">Login</button>
+          <button type="button" class="btn btn-primary" id="send2"  onclick='ingresar()'>Login</button>
           <p class="textpass">Olvidaste tu contraseña?
             <a href="#" class="textclick">Click Aquí</a>
           </p>
@@ -111,13 +124,11 @@
   </div>
 
   <!--  Modal Register-->
-
   <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content conten2">
         <div class="modal-header">
           <button type="button" class="btn btn-default btn-lg" id="regist">¿Ya tienes una cuenta?</button>
-
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </div>
@@ -125,46 +136,23 @@
           <p class="textactiv">O CREA UNA CUENTA NUEVA</p>
         </div>
         <div class="form-group">
-
           <input type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
-
-          <input type="email" class="form-control" id="email" placeholder="Correo Electronico: ejemplo@gmail">
-
+          <input type="email" class="form-control" id="email" placeholder="Ingresa email">
           <input type="phone" class="form-control phonee" id="phone" placeholder="Teléfono">
-
-          <input type="password" class="form-control" id="pass" placeholder="Contraseña">
-
+          <input type="password" class="form-control" id="pass" placeholder="Ingresa contraseña">
           <input type="city" class="form-control" id="city" placeholder="Ciudad">
-          
-        </div>
-
-        <div class="checkbox">
-          <label>
-            <input class="checkbox" type="checkbox" value="agree">I agree to Lyft's
-            <a href="https://www.lyft.com/terms">Terms of Service</a>
-          </label>
-        </div>
-        <div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary next">Save changes</button>
+          <button onclick='registrar()'>Enviar</button>
           </div>
-        </div>
       </div>
     </div>
+  </div>
 
-
-
-
-
-
-
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src=" js/app.js"></script>
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src=" js/app.js"></script>
+  <script src=" js/register.js"></script>
+ 
 </body>
 
 </html>
