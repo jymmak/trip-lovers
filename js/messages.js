@@ -6,7 +6,8 @@ function begin() {
   }
   var dataFriends = getFriends();
   var arrFriends = dataFriends.AMIGOS;
-  var $boxFriends = $('#cointainer-friends');
+  var $boxFriends = $('.small');
+
   function showFriends() {
     var str = '';
     for (var i = 0; i < arrFriends.length; i++) {
@@ -31,10 +32,11 @@ function begin() {
     }
     $boxFriends.html(str);
   }
-  function singOff() {
+   function singOff() {
     window.location.href = '../index.html';
   }
   $('.sign-off').click(singOff);
 
   showFriends();
 }
+
