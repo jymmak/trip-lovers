@@ -7,7 +7,7 @@ function begin() {
   var dataFriends = getFriends();
   var arrFriends = dataFriends.AMIGOS;
   var $boxFriends = $('.small');
-  var $boxFriendsDetails = $('.media-body');
+
   function showFriends() {
     var str = '';
     for (var i = 0; i < arrFriends.length; i++) {
@@ -21,16 +21,6 @@ function begin() {
     }
     $boxFriends.html(str);
   }
-
-  function showDetailsFriends() {
-    var strDetails = '';
-    for (var i = 0; i < arrFriends.length; i++) {
-      var details = '<spam>' + arrFriends[i].name + '"></spam>';
-      str += strDetails;
-    }
-    $boxFriendsDetails.html(strDetails);
-  }
-
   showFriends();
-  showDetailsFriends();
+ 
 }
