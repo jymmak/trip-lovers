@@ -6,57 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>TRIP Lovers</title>
-  <!-- Bootstrap core CSS-->
+  <!-- Links CSS Styles-->
   <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom fonts for this template-->
   <link href="../assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <!-- Custom styles for this template-->
-  <link href="../css/sb-admin.css" rel="stylesheet">
+  <link href="../css/main.css" rel="stylesheet">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Section Navigation Data -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="../index.html">TRIP Lovers</a>
-    <input type="search" class="form-control" id="search-input" placeholder="Search">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Search places -->
+    <input type="search" class="form-control" id="search-input" placeholder="Buscar ciudades...">
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Editar perfil">
+      <ul class="navbar-nav navbar-sidenav vh-100" id="exampleAccordion">
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">
+            <i class="fa fa-newspaper-o"></i>
+            <span class="nav-link-text">Novedades</span>
+          </a>
           <a class="nav-link" href="edit-profile.html">
             <i class="fa fa-fw fa-user"></i>
             <span class="nav-link-text">Editar perfil</span>
           </a>
         </li>
-
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Editar perfil">
           <a class="nav-link" href="messages.html">
             <i class="fa fa-fw fa-commenting"></i>
             <span class="nav-link-text">Mensajes</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Compartir viajes">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
           <a class="nav-link" href="share-trips.html">
             <i class="fa fa-fw fa-suitcase"></i>
             <span class="nav-link-text">Compartir viajes</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Compartir fotos">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="share-photos.html">
             <i class="fa fa-fw fa-camera"></i>
             <span class="nav-link-text">Compartir fotos</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Amigos viajeros">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
           <a class="nav-link" href="friends.html">
             <i class="fa fa-fw fa-users"></i>
             <span class="nav-link-text">Amigos viajeros</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Buscar...">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-search"></i>
             <span class="nav-link-text">Buscar...</span>
@@ -81,101 +83,51 @@
           </ul>
         </li>
       </ul>
-      <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"></i>
-          </a>
-        </li>
-      </ul>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-envelope"></i>
-            <span class="d-lg-none">Messages
-              <span class="badge badge-pill badge-primary">12 New</span>
-            </span>
-            <span class="indicator text-primary d-none d-lg-block">
-              <i class="fa fa-fw fa-circle"></i>
-            </span>
+        <li class="nav-item sign-off">
+          <a class="nav-link">
+            <i class="fa fa-fw fa-sign-out"></i>Cerrar Sesión
           </a>
-          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-            <h6 class="dropdown-header">Nuevos mensajes:</h6>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>David Miller</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">Hey there! This new version of SB Admin is pretty awesome! These messages clip off when they reach the end
-                of the box so they don't overflow over to the sides!</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>Jane Smith</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>John Doe</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can
-                discuss distribution.</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item small" href="#">Ver todos los mensajes</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>Cerrar Sesión</a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
-      <!-- Area Chart Example-->
+      <!-- Section Messages (Chat) -->
       <div class="row">
         <div class="col-lg-8">
-          <!-- Card Columns Example Social Feed-->
           <div class="mb-0 mt-4">
             <i class="fa fa-commenting"></i> Messages</div>
           <hr class="mt-2">
-        </div>
-        <div class="col-lg-4">
-          <!-- Example Notifications Card-->
-          <div class="card mb-3">
-            <div class="card-header">
-              <i class="fa fa-plus"></i> Sugerencias de nuevos amigos</div>
-            <div class="list-group list-group-flush small">
-            </div>
+          <div class="chat" id="chat">
+            <!--Container Message (Chat) Data-->
+          </div>
+          <div class="input-group input-group-lg pull-left" id="caja">
+            <span class="input-group-addon glyphicon glyphicon-pencil" id="sizing-addon1"></span>
+            <input id="comment" type="text" class="form-control" placeholder="Escribe tu mensaje" aria-describedby="sizing-addon1">
+            <span class="input-group-btn">
+              <button class="btn btn-default boton group-addon" type="button" id="send">Enviar</button>
+            </span>
           </div>
         </div>
+         <!-- Section Friends Message (Chat) Data-->
+         <div class="col-lg-4">
+            <div class="card mb-1">
+              <div class="card-header">
+                <i class="fa fa-commenting"></i>
+                <spam class="name-place"> Amigos conectados</spam>
+              </div>
+              <!-- Section User's OnLine-->
+              <div class="list-group list-group-flush small" id="cointainer-friends">
+                
+              </div>
+            </div>
+          </div>
       </div>
     </div>
 
-    <!--Chat-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="two">
-          <div class="panel-body conversation col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            <div class="chat" id="chat">
-              <!--posteo-->
-            </div>
-            <div class="input-group input-group-lg pull-left" id="caja">
-              <span class="input-group-addon glyphicon glyphicon-pencil" id="sizing-addon1"></span>
-              <input id="comment" type="text" class="form-control" placeholder="Escribe tu mensaje" aria-describedby="sizing-addon1">
-              <span class="input-group-btn">
-                <button class="btn btn-default boton group-addon" type="button" id="send">Enviar</button>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Bootstrap core JavaScript-->
+    <!-- Links JavaScript-->
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
     <script src="../vendors/jquery/jquery.min.js"></script>
     <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>

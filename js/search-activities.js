@@ -2,53 +2,45 @@ function begin() {
   // Obtiene el objeto de los lugares
   var data = getData();
   var arrPlace = Object.keys(data);
-  // var typeTransport = ['airplane', 'bus']
-  // console.log(dataTransport);
-  // Almacena los nombres de los lugares en un arreglo
-  // var arrTransport = Object.keys(dataPlace);
-  // Caja donde se va cargar todos los lugares
   var $boxPlace = $('.card-columns');
   // Extrae la data
   function getData() {
     return tripData;
   }
-  function showTransports() {
-    var namePlace = '';
-    var listAllTransport = '';
-    var typeTransport = '';
 
+  function showActivities() {
+    var namePlace = '';
+    var listAllActivities = '';
+    var typeActivities = '';
+    // console.log(data);
     for (var i = 0; i < arrPlace.length; i++) {
-      var arrTransport = data[arrPlace[i]]['transports'];
-      var dataTransports = Object.keys(data[arrPlace[i]]['transports']);
-      for (var j = 0; j < dataTransports.length; j++) {
-        var listTransport = arrTransport[dataTransports[j]];
-        typeTransport = dataTransports[j];
-        for (var k = 0; k < listTransport.length; k++) {
-          namePlace = arrPlace[i];
-          var nameAgency = listTransport[k]['name'];
-          var priceMin = listTransport[k]['price-min'];
-          var priceMax = listTransport[k]['price-max'];
-          var frecuency = listTransport[k]['frecuency'];
-          var schedule = listTransport[k]['schedule'];
-          var photo = listTransport[k]['photo'];
-          var cardTransport = '<div class="card">' +
-              '<div class="card-body">' +
-                '<div class="clearfix"><img class="card-img-top float-right " src="' + photo + '" alt="logo-agency"></div>' +
-                '<h5 class="card-title font-weight-bold mb-0">' + namePlace + '</h5>' +
-                '<p class="font-italic mb-0">' + typeTransport + '</p>' +
-                '<p class="card-text mb-0"><img src="../assets/images/atencion-al-cliente.png "></img> ' + frecuency + '</p>' +
-                '<p class="card-text "><img src="../assets/images/reloj.png "></img> ' + schedule + '</p>' +
-                '<p class="font-weight-bold text-price text-right mt-0"> min <span>$ ' + priceMin + ' </span> max <span> $ ' + priceMax + '</span></p>' +
-              '</div>' +
-          '</div>';
-          namePlace = '';
-          listAllTransport += cardTransport;
-        }
-        typeTransport = '';
+      var arrActivities = data[arrPlace[i]]['activities'];
+      // var dataHotel = Object.keys(data[arrPlace[i]]['hotels']);
+      // console.log('soy d'+dataHotel);
+      for (var j = 0; j < arrActivities.length; j++) {
+        var name = arrActivities[j]['name'];
+        var address = arrActivities[j]['address'];
+        var phone = arrActivities[j]['phone'];
+        var price = arrActivities[j]['price'];
+        // var priceMax = arrActivities[j]['price-max'];
+        var description = arrActivities[j]['description'];
+        var photo = arrActivities[j]['photo'];
+        var cardActivities = '<div class="card">' +
+                          '<a href="#"> <img class="card-img-top" src="' + photo + '" alt="' + name + '"></a>' +
+                          '<div class="card-body">' +
+                            '<h6 class="card-title font-weight-bold text-uppercase">' + name + '</h6>' +
+                            '<p class="card-text mb-0"><i class="fa fa-address-card "></i> ' + address + '</p>' +
+                            '<p class="card-text text-description font-italic">' + description + '</p>' +
+                            '<p class="font-weight-bold text-price text-right"> <i class="fa fa-tags" aria-hidden="true"></i> <span>$ ' + price + '</span></p>' +
+                          '</div>' +
+                        '</div>';
+        listAllActivities += cardActivities;
       }
     }
-    $boxPlace.html(listAllTransport);
+    $boxPlace.html(listAllActivities);
   }
+  showActivities();
+  /*
 
   // Añadiendo el comentario del textarea
   function addComentTextArea() {
@@ -112,7 +104,6 @@ function begin() {
         // }
 
 
-
         // var typeTransport = $('.card-transport>div')[0];
         // console.log($('.card-transport').children());
         // console.log(typeTransport);
@@ -137,7 +128,7 @@ function begin() {
   // eventos
   $('.add-coment').click(addComentForm); // cuando se hace click en (Añadir comentarios...) se muestra el formulario
   $('#search-input').on('keyup', searchPlace); // cada vez que inserto un valor en el input que me busque el lugar para mostrarlo
-  $('.sign-off').click(singOff);
+  $('.sign-off').click(singOff);*/
 }
 
 $(document).ready(begin);
