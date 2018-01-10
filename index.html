@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <header class="containe-fluid">
+  <!-- <header class="containe-fluid">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
         <img class="logo" src="assets/images/logo trip lovers blanco.png" alt="logo">
@@ -68,18 +68,17 @@
         </form>
       </div>
     </nav>
-  </header>
-
+  </header> -->
   <!-- Sección registro-->
-  <section>
+  <section id="img-font">
     <div class="container-fluid">
       <div class="row">
-        <div>
-          <img src="assets/images/ban.jpg" class="img-responsive imgone" alt="Responsive image">
-        </div>
-        <div class="row">
-          <div class="col-md-7 col-lg-7 col-xs-7 col-sm-7">
-            <div class="login">
+        <div class="offset-sm-7 offset-md-7 offset-lg-7 col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+          <div class="row" id="section-login">
+            <div class="col-md-4">
+              <img src="assets/images/logo-blanco.png" alt="" class="img-fluid logo">
+            </div>
+            <div class="col-md-8">
               <h2 class="textimg">
                 <strong>Descubre lugares únicos</strong>
               </h2>
@@ -94,8 +93,8 @@
         </div>
       </div>
     </div>
+    </div>
   </section>
-
   <!-- Modales-->
   <!--  Modal Login-->
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -114,7 +113,7 @@
           <input type="password" class="form-control" id="pass2" placeholder="Contraseña">
         </div>
         <div>
-          <button type="button" class="btn btn-primary" id="send2"  onclick='ingresar()'>Login</button>
+          <button type="button" class="btn btn-primary" id="send2" onclick='ingresar()'>Login</button>
           <p class="textpass">Olvidaste tu contraseña?
             <a href="#" class="textclick">Click Aquí</a>
           </p>
@@ -122,7 +121,6 @@
       </div>
     </div>
   </div>
-
   <!--  Modal Register-->
   <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -142,7 +140,7 @@
           <input type="password" class="form-control" id="pass" placeholder="Ingresa contraseña">
           <input type="city" class="form-control" id="city" placeholder="Ciudad">
           <button onclick='registrar()'>Enviar</button>
-          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -152,7 +150,7 @@
   <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src=" js/app.js"></script>
   <script src=" js/register.js"></script>
- 
+
 </body>
 
 </html>
