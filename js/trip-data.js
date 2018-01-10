@@ -268,7 +268,7 @@ var tripData = {
           'price-max': 100,
           'frecuency': 'Todos los días',
           'schedule': '8:00 am - 10:00 am - 17:00 pm',
-          'photo': '../assets/images/tripdata/transports/oltursa.png'
+          'photo': '../assets/images/tripdata/transports/oltursa.jpg'
         },
         {
           'code': '2',
@@ -277,7 +277,7 @@ var tripData = {
           'price-max': 110,
           'frecuency': 'Todos los días',
           'schedule': '8:00 am - 9:00 am - 10:00 am - 17:00 pm',
-          'photo': '../assets/images/tripdata/transports/cruz_del_sur.png'
+          'photo': '../assets/images/tripdata/transports/cruz_del_sur.jpg'
         },
         {
           'code': '3',
@@ -483,7 +483,7 @@ var tripData = {
         'price-min': '70',
         'price-max': '100',
         'description': 'Muy buen hotel, centrico, sencillo y económico.',
-        'photo': '../assets/images/tripdata/ayp/hotel_santaana.jpg'
+        'photo': '../assets/images/tripdata/ayp/hotel_santa_ana.jpg'
       },
       {
         'code': '2',
@@ -547,7 +547,7 @@ var tripData = {
           'code': '2',
           'name': 'AVIANCA',
           'price-min': 79.90,
-          'price-min': 110.00,
+          'price-max': 110.00,
           'frecuency': 'Todos los días',
           'schedule': '9:00 am - 14:00 am - 18:00 pm',
           'photo': '../assets/images/tripdata/transports/avianca.png'
@@ -694,10 +694,10 @@ var tripData = {
           'code': '2',
           'name': 'AVIANCA',
           'price-min': 50.90,
-          'price-min': 89.90,
+          'price-max': 89.90,
           'frecuency': 'Todos los días',
           'schedule': '9:00 am - 14:00 am - 18:00 pm',
-          'photo': '../assets/images/tripdata/transports/cavianca.png'
+          'photo': '../assets/images/tripdata/transports/avianca.png'
         }
       ],
       'bus': [
@@ -832,7 +832,7 @@ var tripData = {
           'code': '1',
           'name': 'LAN',
           'price-min': 50.90,
-          'price-min': 99.90,
+          'price-max': 99.90,
           'frecuency': 'Todos los días',
           'schedule': '8:00 am - 10:00 am - 17:00 pm',
           'photo': '../assets/images/tripdata/transports/lan.jpeg'
