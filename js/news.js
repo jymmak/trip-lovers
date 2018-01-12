@@ -24,7 +24,8 @@ function begin() {
   function singOff() {
     window.location.href = '../index.html';
   }
-  $('.sign-off').click(singOff);
 
   showFriends();
+  // Event
+  $('.sign-off').click(singOff);  
 }

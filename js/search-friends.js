@@ -29,12 +29,13 @@ function begin() {
     }
     $boxFriendsDetails.html(strDetails);
   }
-  
+
   function singOff() {
     window.location.href = '../index.html';
   }
-  $('.sign-off').click(singOff);
 
   showFriends();
   showDetailsFriends();
+  // Event
+  $('.sign-off').click(singOff);
 }

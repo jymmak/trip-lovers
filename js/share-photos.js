@@ -15,14 +15,14 @@ function begin() {
         '<h6 class="card-title mb-1 d-inline">' +
         '<a href="#">' + arrNews[i].trips[0].post +
         '</a>' + '<a href="#">' + 'publicado por ' + arrNews[i].name +
-        '</a>' + '</h6></div></div>' + 
+        '</a>' + '</h6></div></div>' +
 
         '<a class="list-group-item list-group-item-action" href="#">' +
-        '<div class="media">' + 
+        '<div class="media">' +
           '<img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">' +
           '<div class="media-body">' +
             '<strong>Carmen</strong>' +
-            '<p>Una ciudad muy bonita e interesante culturalmente, su centro cívico es muy atractivo, hay mucha historia que aprender</p>'  +
+            '<p>Una ciudad muy bonita e interesante culturalmente, su centro cívico es muy atractivo, hay mucha historia que aprender</p>' +
           '</div>' +
         '</div>' +
       '</a>';
