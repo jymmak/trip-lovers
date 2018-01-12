@@ -1,9 +1,18 @@
 $(document).ready(function () {
-
-  $('#send2').on('click', function (event) {
-    event.preventDefault();
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+    authDomain: "trip-lovers.firebaseapp.com",
+    databaseURL: "https://trip-lovers.firebaseio.com",
+    projectId: "trip-lovers",
+    storageBucket: "trip-lovers.appspot.com",
+    messagingSenderId: "234184574226"
+  };
+  firebase.initializeApp(config);
+  setTimeout(function () {
     window.location.href = 'views/search-places.html';
-  });
+  }, 3000);
+
 
   $(function () {
     $('#phone').keyup(function (e) {

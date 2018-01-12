@@ -1,3 +1,14 @@
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+  authDomain: "trip-lovers.firebaseapp.com",
+  databaseURL: "https://trip-lovers.firebaseio.com",
+  projectId: "trip-lovers",
+  storageBucket: "trip-lovers.appspot.com",
+  messagingSenderId: "234184574226"
+};
+firebase.initializeApp(config);
+
 function begin() {
   // Obtiene el objeto de los lugares
   var data = getData();
@@ -32,15 +43,15 @@ function begin() {
           var schedule = listTransport[k]['schedule'];
           var photo = listTransport[k]['photo'];
           var cardTransport = '<div class="card">' +
-              '<div class="card-body">' +
-                '<div class="clearfix"><img class="card-img-top float-right " src="' + photo + '" alt="logo-agency"></div>' +
-                '<h5 class="card-title font-weight-bold mb-0">' + namePlace + '</h5>' +
-                '<p class="font-italic mb-0">' + typeTransport + '</p>' +
-                '<p class="card-text mb-0"><img src="../assets/images/atencion-al-cliente.png "></img> ' + frecuency + '</p>' +
-                '<p class="card-text "><img src="../assets/images/reloj.png "></img> ' + schedule + '</p>' +
-                '<p class="font-weight-bold text-price text-right mt-0"> min <span>$ ' + priceMin + ' </span> max <span> $ ' + priceMax + '</span></p>' +
-              '</div>' +
-          '</div>';
+            '<div class="card-body">' +
+            '<div class="clearfix"><img class="card-img-top float-right " src="' + photo + '" alt="logo-agency"></div>' +
+            '<h5 class="card-title font-weight-bold mb-0">' + namePlace + '</h5>' +
+            '<p class="font-italic mb-0">' + typeTransport + '</p>' +
+            '<p class="card-text mb-0"><img src="../assets/images/atencion-al-cliente.png "></img> ' + frecuency + '</p>' +
+            '<p class="card-text "><img src="../assets/images/reloj.png "></img> ' + schedule + '</p>' +
+            '<p class="font-weight-bold text-price text-right mt-0"> min <span>$ ' + priceMin + ' </span> max <span> $ ' + priceMax + '</span></p>' +
+            '</div>' +
+            '</div>';
           namePlace = '';
           listAllTransport += cardTransport;
         }
@@ -55,10 +66,10 @@ function begin() {
     var user = 'User';
     var text = $('#text-coment').val();
     var coment = '<a class="list-group-item list-group-item-action" href="#">' +
-    '<div class="media">' +
-    '<img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">' +
-    '<div class="media-body">' +
-    '<strong>' + user + '</strong>' +
+      '<div class="media">' +
+      '<img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">' +
+      '<div class="media-body">' +
+      '<strong>' + user + '</strong>' +
       '<p>' + text + '</p>' +
       '</div>' +
       '</div>' +
@@ -78,7 +89,7 @@ function begin() {
     // Cuando escriba el areaTexto se va ajustar para que no salga el scroll
     $('#text-coment').keyup(adjustTextArea);
     // Cuando hace click en el ícono close
-    $('.btn-close').click(function() {
+    $('.btn-close').click(function () {
       $('#form-comment').hide();
       $('.add-coment').show();
     });
@@ -95,7 +106,7 @@ function begin() {
   function searchPlace() {
     if ($(this).val()) { // dato que se ingresa en el input
       var searchTransport = $(this).val(); // en la variable searchPlace se almacena el valor del input
-      $('.card-transport>div').each(function(index) { // hace un recorrido con el each todos los div de los card-place
+      $('.card-transport>div').each(function (index) { // hace un recorrido con el each todos los div de los card-place
         // console.log($(this).next().text());
         // console.log($('.card-transport h5')[3]);
         var typeTransport = $('.card-transport p:first')[index];

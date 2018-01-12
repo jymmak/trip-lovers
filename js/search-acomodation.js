@@ -1,3 +1,14 @@
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+  authDomain: "trip-lovers.firebaseapp.com",
+  databaseURL: "https://trip-lovers.firebaseio.com",
+  projectId: "trip-lovers",
+  storageBucket: "trip-lovers.appspot.com",
+  messagingSenderId: "234184574226"
+};
+firebase.initializeApp(config);
+
 function begin() {
   // Obtiene el objeto de los lugares
   var data = getData();
@@ -26,15 +37,15 @@ function begin() {
         var description = arrHotel[j]['description'];
         var photo = arrHotel[j]['photo'];
         var cardHotel = '<div class="card">' +
-                          '<a href="#"> <img class="card-img-top" src="' + photo + '" alt="' + name + '"></a>' +
-                          '<div class="card-body">' +
-                            '<h6 class="card-title font-weight-bold text-uppercase">' + name + '</h6>' +
-                            '<p class="card-text mb-0"><i class="fa fa-address-card "></i> ' + address + '</p>' +
-                            '<p class="card-text "><i class="fa fa-phone"></i> ' + phone + '</p>' +
-                            '<p class="card-text text-description font-italic">' + description + '</p>' +
-                            '<p class="font-weight-bold text-price text-right"> min <span>$ ' + priceMin + ' </span> max <span> $ ' + priceMax + '</span></p>' +
-                          '</div>' +
-                        '</div>';
+          '<a href="#"> <img class="card-img-top" src="' + photo + '" alt="' + name + '"></a>' +
+          '<div class="card-body">' +
+          '<h6 class="card-title font-weight-bold text-uppercase">' + name + '</h6>' +
+          '<p class="card-text mb-0"><i class="fa fa-address-card "></i> ' + address + '</p>' +
+          '<p class="card-text "><i class="fa fa-phone"></i> ' + phone + '</p>' +
+          '<p class="card-text text-description font-italic">' + description + '</p>' +
+          '<p class="font-weight-bold text-price text-right"> min <span>$ ' + priceMin + ' </span> max <span> $ ' + priceMax + '</span></p>' +
+          '</div>' +
+          '</div>';
         listAllHotel += cardHotel;
       }
     }
