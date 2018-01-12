@@ -13,11 +13,7 @@ function begin() {
   // Obtiene el objeto de los lugares
   var data = getData();
   var arrPlace = Object.keys(data);
-  // var typeTransport = ['airplane', 'bus']
-  // console.log(dataTransport);
-  // Almacena los nombres de los lugares en un arreglo
-  // var arrTransport = Object.keys(dataPlace);
-  // Caja donde se va cargar todos los lugares
+
   var $boxPlace = $('.card-columns');
   // Extrae la data
   function getData() {
@@ -106,43 +102,20 @@ function begin() {
   function searchPlace() {
     if ($(this).val()) { // dato que se ingresa en el input
       var searchTransport = $(this).val(); // en la variable searchPlace se almacena el valor del input
-      $('.card-transport>div').each(function (index) { // hace un recorrido con el each todos los div de los card-place
-        // console.log($(this).next().text());
-        // console.log($('.card-transport h5')[3]);
+      $('.card-transport>div').each(function(index) { // hace un recorrido con el each todos los div de los card-place
         var typeTransport = $('.card-transport p:first')[index];
         var st = $(this);
-        console.log($(this).children().children().children());
-        // console.log($('.card-transport').children());
-        // console.log(typeTransport);
-        // console.log(searchTransport +'-'+ typeTransport);
-        // if ((typeTransport).toUpperCase() === searchTransport.toUpperCase()) { // Comparacion del arraPlace con el valor ingresado
-        //   // console.log('1');
-        //   $('.card-transport>div').hide(); // ocultatar todos los paneles de la lista
-        //   console.log($(this));
-        //   // $(this).show();// mostrar solo lo que cumple con la condicion
-        // }
-
-
-
-        // var typeTransport = $('.card-transport>div')[0];
-        // console.log($('.card-transport').children());
-        // console.log(typeTransport);
-        // console.log(searchTransport +'-'+ typeTransport);
-        // if ((typeTransport).toUpperCase() === searchTransport.toUpperCase()) { // Comparacion del arraPlace con el valor ingresado
-        //   // console.log('1');
-        //   $('.card-transport>div').hide(); // ocultatar todos los paneles de la lista
-        //   // console.log($(this));
-        //   $(this).show();// mostrar solo lo que cumple con la condicion
-        // }
-
       });
     } else {
       $('.card-transport>div').show(); // mostrar todos las listas
     }
   }
+
   function singOff() {
     window.location.href = '../index.html';
   }
+
+  
   // Llamando a la funcion para que cargue los transportes
   showTransports();
   // eventos

@@ -9,9 +9,6 @@ $(document).ready(function () {
     messagingSenderId: "234184574226"
   };
   firebase.initializeApp(config);
-  setTimeout(function () {
-    window.location.href = 'views/search-places.html';
-  }, 3000);
 
 
   $(function () {
@@ -27,7 +24,7 @@ $(document).ready(function () {
   });
 
 
-  $('#send2').on('click', function (registrar) {
+  /*$('#send2').on('click', function () {
     firebase.auth().createUserWithEmailAndPassword('#email2', '#pass2').catch(function (error) {
       // Handle Errors here.
       var errorCode = error.code;
@@ -35,7 +32,7 @@ $(document).ready(function () {
       // ...
     });
 
-  });
+  });*/
 });
 
 

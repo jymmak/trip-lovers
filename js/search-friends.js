@@ -25,7 +25,7 @@ function begin() {
         '<a href="#"> <img class="card-img-top img-fluid w-100" src="' + arrFriends[i].photo + '" alt="' + arrFriends[i].name + '"></a>' +
         '<div class="card-body d-flex justify-content-between">' +
         '<h6 class="card-title mb-1 d-inline">' +
-        '<a href="#">' + arrFriends[i].name + 
+        '<a href="#">' + arrFriends[i].name +
         '</a></h6></div></div>';
       str += place;
     }
@@ -41,6 +41,12 @@ function begin() {
     $boxFriendsDetails.html(strDetails);
   }
 
+  function singOff() {
+    window.location.href = '../index.html';
+  }
+
   showFriends();
   showDetailsFriends();
+  // Event
+  $('.sign-off').click(singOff);
 }

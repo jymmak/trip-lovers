@@ -4,38 +4,51 @@
 #### 1. Objetivo:
 Desarrollar una red social para aquellos usuarios que quieren viajar.
 
-#### 2. Descripción:
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos vivir sin ellas. Dado este contexto, un emprendedor muy visionario nos ha encargado crear una red social. No nos da mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos la que mejor podamos y que luego lo convenzamos de que nuestra red social será la más exitosa.
+#### 2. Descripción del proyecto:
 
-Para él hay algunos puntos básicos que debe tener una red social:
+![trip-lovers](assets/docs/logo-readme.png)
 
-* Perfiles de usuarios
-* Un newsfeed donde puedes ver las actualizaciones de todos tus contactos
-* Un lugar donde poder escribir posts
-* Un lugar para subir fotos
-* Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de la red social
-* Ser mobile friendly, etc.
+Los motivos para viajar son incalculables y dependen de cada persona. En ocasiones se viaja para romper con la rutina, para tomar distancia de lo cotidiano, para conocer y experimentar nuevas culturas, para ver “ese” templo o monumento que tanto te ha hecho suspirar al admirarlo en fotos. También se viaja para conocer gente, para conocerse a una misma, para conocer los propios límites e incluso para desdibujarlos y trazarlos “un poquito más allá”. Se viaja por la adrenalina, por amor al viaje, por placer a lo desconocido y por miedo a lo desconocido. A veces se viaja simplemente porque sí y en resumen esa es la razón de ser de nuestra red social Trip Lovers.
 
-Este emprendedor, además, sabe que los creadores de productos tienen que pensar siempre en los usuarios y espera que tengas en cuenta lo que necesitan los usuarios al momento de crear este producto, si piensas por ejemplo en una red social para compartir memes, o una para compartir cosas de mascotas o alguna otra para compartir tips sobre restaurantes o recetas, tendrás que tener en cuenta qué es lo que le gustaría encontrar a un usuario sobre estos temas en la red social.
+A continuación te dejamos algunos datos de Trip Lovers que te serán utiles a la hora de navegar por nuestra red social:
 
-#### 3. Proceso
-![](assets/images/.png)
-![](assets/images/.png)
-![](assets/images/.png)
-![](assets/images/.png)
-![](assets/images/.png)
-![](assets/images/.png)
-#### 4. Recursos utilizados
+* En Trip lovers nos gusta tener muchos amigos y es por eso que a la hora de ingresar nuestra web te pedira registrarte en caso no lo estes y para aquellos que ya lo hayan hecho les pedirá hacer un login.
+
+![trip-lovers](assets/docs/vista1.jpg)
+![trip-lovers](assets/docs/vista2.jpg)
+![trip-lovers](assets/docs/vista3.jpg)
+
+* Los contenidos de Trip Lovers cuentan con mucha información de nuestro amado país ya que es una red social orientada a fomentar el turismo interno desde las experiencias de cada uno de sus habitantes o personas que les apasione conocer y viajar por el Perú. Si eres un peruano y te gusta viajar Trip lovers es la red social para ti. Si eres extranjero pero llevas un corazón peruano y quieres conocer nuestro país Trip lovers te brindará todos los datos necesarios para que termines animándote a venir, aquí podrás buscar muchos datos importantes como:
+
+Datos Novedades
+![trip-lovers](assets/docs/vista5.jpg)
+
+Datos perfil
+![trip-lovers](assets/docs/vista6.jpg)
+
+Datos chat y mensajes
+![trip-lovers](assets/docs/vista7.jpg)
+
+Datos compartir fotos y experiencias de viajes
+![trip-lovers](assets/docs/vista8.jpg)
+
+* Adicional a la información que brindamos en Trip Lovers podrás compartir tus fotos, tus experiencias de viaje, chatear y conversar con tus amigos, revisar las novedades de tus amigos y red, actualizar tu perfil, entre otras cosas divertidas.
+
+Datos de ciudades y países
+![trip-lovers](assets/docs/vista10.jpg)
+
+* ¿Te gusto lo hemos hecho para tí? Que esperas animate y registrate en trip lovers
+
+#### 3. Recursos utilizados
 * HTML5
 * CSS
-* BOOTSTRAP v3.
+* BOOTSTRAP v4.
 * JQUERY v3.2.1.
+* FIREBASE
 
-#### 5. Integrantes
-* Jymma
+#### 4. Integrantes
+* Jymma Mogollon
 * Lourdes Loayza.
 * Melyna Bisley.
 
-#### 6. Producto Final
-![](assets/images/.png)
 
