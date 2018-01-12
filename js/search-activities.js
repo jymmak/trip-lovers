@@ -9,7 +9,6 @@ function begin() {
   }
 
   function showActivities() {
-    debugger
     var namePlace = '';
     var listAllActivities = '';
     var typeActivities = '';

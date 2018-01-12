@@ -618,3 +618,9 @@ footer.sticky-footer {
   height: 50px;
   width:  50px;
 }
+
+@media (max-width: 320px) {
+  #section-login {
+    margin-top: 0;
+  }
+}
