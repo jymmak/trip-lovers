@@ -9,20 +9,17 @@ function begin() {
   }
 
   function showActivities() {
+    debugger
     var namePlace = '';
     var listAllActivities = '';
     var typeActivities = '';
-    // console.log(data);
     for (var i = 0; i < arrPlace.length; i++) {
       var arrActivities = data[arrPlace[i]]['activities'];
-      // var dataHotel = Object.keys(data[arrPlace[i]]['hotels']);
-      // console.log('soy d'+dataHotel);
       for (var j = 0; j < arrActivities.length; j++) {
         var name = arrActivities[j]['name'];
         var address = arrActivities[j]['address'];
         var phone = arrActivities[j]['phone'];
         var price = arrActivities[j]['price'];
-        // var priceMax = arrActivities[j]['price-max'];
         var description = arrActivities[j]['description'];
         var photo = arrActivities[j]['photo'];
         var cardActivities = '<div class="card">' +
