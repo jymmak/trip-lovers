@@ -6,10 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TRIP LOVERS</title>
-  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-
-  <!-- Tab icon -->
-  <link rel="shortcut icon" type="image/y-icon" href="assets/images/logo-blanco.png">
   <!-- Bootstrap core CSS-->
   <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
@@ -17,21 +13,52 @@
   <!-- Custom styles for this template-->
   <link rel="stylesheet" href="css/main.css">
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
-      authDomain: "trip-lovers.firebaseapp.com",
-      databaseURL: "https://trip-lovers.firebaseio.com",
-      projectId: "trip-lovers",
-      storageBucket: "trip-lovers.appspot.com",
-      messagingSenderId: "234184574226"
-    };
-    firebase.initializeApp(config);
-  </script>
+
 </head>
 
 <body>
+  <!-- <header class="containe-fluid">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="assets/images/logo trip lovers blanco.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i id="home" class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i id="coment" class="fa fa-commenting-o" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i id="cir" class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 sear">
+          <input class="form-control mr-sm-2 " type="search" placeholder="Buscar lugares, amigos...." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 but" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header> -->
+  <!-- Sección registro-->
   <section id="img-font">
     <div class="container-fluid">
       <div class="row">
@@ -41,10 +68,9 @@
               <img src="assets/images/logo-blanco.png" alt="" class="img-fluid logo">
             </div>
             <div class="col-md-8">
-              <h2 class="textimg title">
+              <h2 class="textimg">
                 <strong>Descubre lugares únicos</strong>
               </h2>
-              <p class="font-italic phrase">Un viaje se mide mejor en amigos...</p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
                 Login
               </button>
@@ -81,13 +107,7 @@
               <a href="#" class="textclick">Click Aquí</a>
             </p>
           </div>
-            
-        <div>
-      
-          <p class="textpass">Olvidaste tu contraseña?
-            <a href="#" class="textclick">Click Aquí</a>
-          </p>
-        </div>
+             
       </div>
     </div>
   </div>
@@ -122,6 +142,6 @@
   <script src=" js/register.js"></script>
   <!--<script src=" js/login.js"></script>-->
 
-
 </body>
+
 </html>
