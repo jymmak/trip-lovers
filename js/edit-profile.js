@@ -1,4 +1,5 @@
 $(document).ready(begin);
+
 function begin() {
   function singOff() {
     window.location.href = '../index.html';

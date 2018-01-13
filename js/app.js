@@ -1,12 +1,12 @@
 $(document).ready(function () {
   // Initialize Firebase
   var config = {
-    apiKey: 'AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s',
-    authDomain: 'trip-lovers.firebaseapp.com',
-    databaseURL: 'https://trip-lovers.firebaseio.com',
-    projectId: 'trip-lovers',
-    storageBucket: 'trip-lovers.appspot.com',
-    messagingSenderId: '234184574226'
+    apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+    authDomain: "trip-lovers.firebaseapp.com",
+    databaseURL: "https://trip-lovers.firebaseio.com",
+    projectId: "trip-lovers",
+    storageBucket: "trip-lovers.appspot.com",
+    messagingSenderId: "234184574226"
   };
   firebase.initializeApp(config);
 
@@ -26,6 +26,7 @@ $(document).ready(function () {
         console.log(errorCode);
       });
   }
+
 
   function Ingresar() {
     var $email2 = $('.email-ingreso').val();
@@ -72,7 +73,7 @@ $(document).ready(function () {
 
   function next1() {
     setTimeout(function () {
-      window.location.href = 'home.html';
+      window.location.href = 'views/search-place.html';
     }, 500);
   }
 });

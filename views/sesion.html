@@ -13,6 +13,7 @@
   <!-- Custom styles for this template-->
   <link rel="stylesheet" href="../css/registerlogin.css">
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://trip-lovers.firebaseapp.com/__/auth/handler"></script>
 
 </head>
 
@@ -20,7 +21,7 @@
   <section id="img-font">
     <div class="container-fluid">
       <div class="row">
-        <div class="offset-sm-7 offset-md-7 offset-lg-7 col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+        <div class="offset-sm-7 offset-md-7 offset-lg-6 col-xs-12 col-sm-4 col-md-4 col-lg-6 ">
           <div class="contenedor-formularios">
             <!-- Links de los formularios -->
             <ul class="contenedor-tabs">
@@ -31,6 +32,7 @@
                 <a href="#registrarse">Registrarse</a>
               </li>
             </ul>
+
             <div class="row" id="section-login">
               <div class="col-md-4">
                 <img src="../assets/images/logo-blanco.png" alt="" class="img-fluid logo">
@@ -42,15 +44,15 @@
                 <div id="iniciar-sesion">
                   <h1>Iniciar Sesión</h1>
                   <form action="#" method="post">
-                    <div class="contenedor-input">
-                      <label>
-                        Usuario
-                        <span class="req">*</span>
-                      </label>
-                      <input type="text" required>
-                    </div>
+                      <div class="contenedor-input  email-ingreso">
+                          <label>
+                            Email
+                            <span class="req">*</span>
+                          </label>
+                          <input type="email" required>
+                        </div>
 
-                    <div class="contenedor-input">
+                    <div class="contenedor-input pass-ingreso">
                       <label>
                         Contraseña
                         <span class="req">*</span>
@@ -58,10 +60,27 @@
                       <input type="password" required>
                       <br>
                     </div>
-                    <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                    <p class="forgot">
+                      <a href="#">Se te olvidó la contraseña?</a>
+                    </p>
                     <input type="submit" class="button button-block send" value="Iniciar Sesión">
-                </form>
-            </div>
+                    <div class="row">
+                        <div class="col-xs">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-xs">
+                                        <button onclick="facebook()" class="btn btn-login btn-lg btn-block btn-face" type="submit">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>Inicia con Facebook</button>
+                                          <button onclick="google()" class="btn btn-login btn-lg btn-block btn-google" type="submit">
+                                            <i class="fa fa-google" aria-hidden="true"></i>Inicia con Google</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                  </form>
+                </div>
 
 
                 <!-- Registrarse -->
@@ -76,15 +95,15 @@
                         </label>
                         <input type="text" required>
                       </div>
-
-                      <div class="contenedor-input">
+                  
+                      <div class="contenedor-input  email-res">
                         <label>
                           Email
                           <span class="req">*</span>
                         </label>
                         <input type="email" required>
                       </div>
-                      <div class="contenedor-input">
+                      <div class="contenedor-input pass-res">
                         <label>
                           Contraseña
                           <span class="req">*</span>
@@ -112,6 +131,9 @@
   <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../js/app.js"></script>
   <script src="../js/login.js"></script>
+  <script src="../js/face.js"></script>
+  <script src="../js/google.js"></script>
+
 
 
 </body>

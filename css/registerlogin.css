@@ -1,4 +1,11 @@
 /*---- Iniciar sesión----*/
+i{
+  color:white;
+  padding: 3%;
+}
+.btn-face, .btn-google{
+  background-color:  #0643e9;
+}
 
 #section-login {
   background: rgba(254, 254, 254, 0.8);
@@ -158,6 +165,7 @@ input {
   background-color: rgb(75, 73, 73);
   color: #fff; 
   margin-left: 10%;
+  margin-bottom: 5%;
     
 }
 
