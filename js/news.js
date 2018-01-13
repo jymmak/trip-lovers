@@ -1,3 +1,4 @@
+
 $(document).ready(begin);
 function begin() {
   function getNews() {
@@ -18,6 +19,8 @@ function begin() {
         '</a>' + '</h6></div></div>';
       listNews += news;
     }
+    $boxNews.html(listNews);
+  }
 
   function singOff() {
     window.location.href = '../index.html';

@@ -9,6 +9,10 @@ $(document).ready(function () {
     messagingSenderId: "234184574226"
   };
   firebase.initializeApp(config);
+  $('#send2').on('click', function (event) {
+    event.preventDefault();
+    window.location.href = 'views/search-places.html';
+  });
 
 
   $(function () {
