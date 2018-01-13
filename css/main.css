@@ -19,7 +19,7 @@ header {
   height: 20vh;
 }
 
-/*---- Index ----*/
+/*---- Splash----*/
 #splash{
   background: #051072; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #051072 0%, #0f4dd1 64%, #0de0e0 100%); /* FF3.6-15 */
@@ -33,88 +33,6 @@ header {
   overflow: auto;
   z-index: 3;
  height: 100vh;
-}
-.title {
-  font-family: 'Philosopher', sans-serif;
-}
-
-.phrase{
-  font-size: 13px;
-}
-
-/* Index - login*/
-#section-login {
-  background: rgba(254, 254, 254, 0.8);
-  border-radius: 5px;
-  padding: 10vh 5vh;
-  margin-top: 25vh;
-}
-
-#img-font {
-  background: url('../assets/images/fondo.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 100vh;
-}
-
-/* Index - sección modal login*/
-.titlemodal {
- margin-left: 35%;
-}
-
-#email2, #pass2 {
-  margin-left: 17%;
-	margin-top: 4%;
-	width: 70%;
-}
-
-#inputs {
-  width:initial;
-}
-
-#send2 {
-  width: 25%;
-	margin-left: 38%;
-	margin-bottom: 4%;
-}
-
-.textpass {
-	text-align: center;
-	padding-top: 1%;
-}
-
-/*Index - Sección modal register*/
-
-#regist {
-  background-color: #000000;
-  border:none;
-  color: #fff;
-  margin-left: 25%;
-  margin-top:5%;
-  padding-bottom: 3%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 3%;
-}
-
-.textactiv {
-  margin-left: 35%;
-  margin-top: 2%;
-}
-
-#name, #email, #phone, #pass, #city {
-  margin-left: 17%;
-	margin-top: 2%;
-	width: 70%;
-}
-
-.checkbox {
-	margin-left: 13%;
-}
-
-#form-comment {
-  padding: 2vh;
 }
 
 /*---- views search-transport ----*/
@@ -637,4 +555,11 @@ footer.sticky-footer {
   #section-login {
     margin-top: 0;
   }
+}
+.title {
+  font-family: 'Philosopher', sans-serif;
+}
+
+.phrase{
+  font-size: 13px;
 }
