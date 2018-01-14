@@ -521,3 +521,14 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 .phrase{
   font-size: 13px;
 }
+
+header.masthead {
+  position: relative;
+  background-color: #1d809f;
+  padding-top: 10em;
+  padding-bottom: 10em; 
+}
+
+header.masthead h1 {
+  font-size: 2rem; 
+}
