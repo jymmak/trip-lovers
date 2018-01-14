@@ -1,82 +1,13 @@
 /*---- Iniciar sesión----*/
-i{
-  color:white;
-  padding: 3%;
-}
-.btn-face, .btn-google{
-  background-color:  #0643e9;
- 
-}
 
-.btn-google{
-  background-color:  #e90606;
-}
-
-#section-login {
-  background: rgba(254, 254, 254, 0.8);
-  border-radius: 5px;
-  padding: 1vh 5vh;
-}
-
-#img-font {
-  background: url('../assets/images/fondo.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 100vh;
-}
-
-
-a {
-  text-decoration: none;
-  transition: .5s ease;
-    
-  &:hover {
-    color:darken( blue,5%);
-  }
-}
-
-.contenedor-formularios {
-  background: #13232f;
-  padding: 40px;
-  max-width: 600px;
-  margin: 2% auto;
-  box-shadow: 0 4px 10px 4px rgba($form-bg,.3);
-}
-
-.contenedor-tabs {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 6% 0;
-    
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  li a {
-  display: block;
-  text-decoration: none;
-  padding: 15px;
-  background: rgba(#a0b3b0,.25);
-  font-size: 20%;
-  float: left;
-  width: 50%;
-  text-align: center;
-  cursor: pointer;
-  transition: .5s ease;
-        
-  &:hover {
-  background: darken(#1ab188,5%);
-   color: #fff;
-    }
-  }
+#section-login {  
+  padding: 1em 2em;
 }
 
 .contenido-tab > div:last-child {
   display: none;
 }
+
 .forgot {
   margin-top: -20px;
   text-align: left;
@@ -84,71 +15,9 @@ a {
   margin-bottom: 20px;
 }
 
-
-/*---- Registrarse----*/
-h1 {
-  text-align: center;
-  color: black;
-  font-weight: $thin;
-  margin: 0 0 40px;
-}
-
-#name, #email, #pass, #city, #email2, #contrasena2{
-  font-size: 22px;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 5px 10px;
-  background: none;
-  border: 1px solid #a0b3b0;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  color: black;
-  transition: all 0.5s ease;
-  border-radius: 5px;
-}
-
-
-
-input {
-  font-size: 22px;
-  display: block;
-  width: 70%;
-  height: 100%;
-  padding: 5px 10px;
-  border: 1px solid #a0b3b0;
-  background-color: #13232f;
-  color: white;
-  transition: all 0.5s ease;
-  border-radius: 5px;
-  &:focus {
-    outline: none;
-    border-color: #1ab188;
-  }
-}
-
 .contenedor-input {
   position: relative;
-  margin-bottom: 40px;
-}
-
-.fila-arriba {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  div {
-    float: left;
-    width: 48%;
-    margin-right: 4%;
-        
-    &:last-child { 
-      margin: 0;
-    }
-  }
+  margin: 20px 0;
 }
 
 .send2 {
@@ -156,34 +25,6 @@ input {
   color: #fff; 
   margin-bottom: 5%;
   margin-left: 5%;
-  width: 86%;
-    
+  width: 86%;   
 }
 
-button-block {
-  display: block;
-  width: 100%;
-}
-
-
-
-// Mediaqueries
-@media screen and (max-width: 500px) {
-  .fila-arriba {
-    div {
-        width: 100%;
-
-        &:last-child {
-          margin-bottom: 40px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .contenedor-tabs {
-    li a {
-    width: 100%;
-    }
-  }
-}
