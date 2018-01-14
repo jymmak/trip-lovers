@@ -53,24 +53,31 @@
                 <!-- Iniciar Sesion -->
                 <div id="iniciar-sesion">
                   <h1>Iniciar Sesión</h1>
-                  <input id="email2"  type="email" placeholder="Ingresa email">
-                  <input id="contrasena2" type="password" placeholder="Ingresa contraseña">
-                  <button onclick = 'ingreso()'>Acceder</button>
+                  <div class="contenedor-input">
+                    <input id="email2" type="email" placeholder="Ingresa email">
+                  </div>
+                  <div class="contenedor-input">
+                    <input id="contrasena2" type="password" placeholder="Ingresa contraseña">
+                  </div>
+                  <div class="contenedor-input">
+                    <input onclick='ingreso()' type="submit" value="Acceder">
+                  </div>
                 </div>
-               <!-- Registrarse -->
-               <div id="registrarse">
+
+                <!-- Registrarse -->
+                <div id="registrarse">
                   <h1>Registrarse</h1>
-                  <form action="#" method="post">
+                  <div action="#" method="post">
                     <div class="fila-arriba">
                       <div class="contenedor-input">
                         <input required type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
                       </div>
 
-                      <div class="contenedor-input  email-res">
+                      <div class="contenedor-input">
 
                         <input required type="email" class="form-control" id="email" placeholder="Ingresa email">
                       </div>
-                      <div class="contenedor-input pass-res">
+                      <div class="contenedor-input">
                         <input required type="password" class="form-control" id="pass" placeholder="Ingresa contraseña">
 
                       </div>
@@ -80,15 +87,15 @@
 
                       <input onclick='registrar()' type="submit" value="Registrarse">
 
-                  </form>
+                    </div>
                   </div>
 
+                </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
 
   </section>
 

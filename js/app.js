@@ -5,8 +5,7 @@ function registrar() {
 
   firebase.auth().createUserWithEmailAndPassword(email, pass)
     .then(function () {
-      verificar();
-      aparece();
+      window.location.href = '../views/search-places.html';
     })
     .catch(function (error) {
       // Handle Errors here.

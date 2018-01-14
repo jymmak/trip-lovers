@@ -93,7 +93,7 @@ h1 {
   margin: 0 0 40px;
 }
 
-#name, #email, #pass, #city{
+#name, #email, #pass, #city, #email2, #contrasena2{
   font-size: 22px;
   display: block;
   width: 100%;
