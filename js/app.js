@@ -1,83 +1,76 @@
-$(document).ready(function () {
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
-    authDomain: "trip-lovers.firebaseapp.com",
-    databaseURL: "https://trip-lovers.firebaseio.com",
-    projectId: "trip-lovers",
-    storageBucket: "trip-lovers.appspot.com",
-    messagingSenderId: "234184574226"
-  };
-  firebase.initializeApp(config);
 
-  function Registrar() {
-    var $email = $('.email-res').val();
-    var $password = $('.pass-res').val();
+function registrar() {
+  var email = document.getElementById('email').value;
+  var pass = document.getElementById('pass').value;
 
-    firebase.auth().createUserWithEmailAndPassword($email, $password)
-      .then(function () {
-        writeUserData(uid, name);
-        $('.modal').modal();
-      })
-      .catch(function (error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.log(errorCode);
-      });
-  }
-
-
-  function Ingresar() {
-    var $email2 = $('.email-ingreso').val();
-    var $password2 = $('.pass-ingreso').val();
-    var $message = $('.message-error');
-
-    firebase.auth().signInWithEmailAndPassword($email2, $password2)
-      .then(function () {
-        next1();
-      })
-      .catch(function (error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // ...
-        $message.append('<p class="red-text">*Datos incorretos</p>');
-      });
-  }
-
-  function Observador() {
-    firebase.auth().onAuthStateChanged(function (user) {
-      if (user) {
-        // User is signed in.
-        console.log('existes');
-
-        var displayName = user.displayName;
-        var email = user.email;
-        var emailVerified = user.emailVerified;
-        var photoURL = user.photoURL;
-        var isAnonymous = user.isAnonymous;
-        var uid = user.uid;
-        var providerData = user.providerData;
-        // ...
-      } else {
-        // User is signed out.
-        // ...
-
-        console.log('no existes');
-      }
+  firebase.auth().createUserWithEmailAndPassword(email, pass)
+    .then(function () {
+      verificar();
+      aparece();
+    })
+    .catch(function (error) {
+      // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      // ...
     });
-  }
+  console.log('estas registrado');
+}
 
-  Observador();
+function verificar() {
+  var user = firebase.auth().currentUser;
+  user.sendEmailVerification().then(function () {
+  }).catch(function (error) {
+  });
+}
 
-  function next1() {
-    setTimeout(function () {
-      window.location.href = 'views/search-place.html';
-    }, 500);
-  }
-});
+function aparece() {
+  var contenido = document.getElementById('contenido');
+  contenido.innerHTML = `
+    <h4>Se envio un correo para validar tu cuenta</h4>
+    <h4>Clickea el boton para dirigirte a la vista principal</h4>
+  <button class="btn btn-success btn-lg btn-principal"><a class="white" href="../views/sesion.html">PRINCIPAL</a></button>
+  `;
+}
 
+function ingreso() {
+  var email2 = document.getElementById('email2').value;
+  var contrasena2 = document.getElementById('contrasena2').value;
 
+  firebase.auth().signInWithEmailAndPassword(email2, contrasena2)
+    .then(function () {
+      window.location.href = '../views/search-places.html';
 
+    }).catch(function (error) {
+      // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      // ...
+    });
 
+}
+
+function observador() {
+  firebase.auth().onAuthStateChanged(function (user) {
+    if (user) {
+      console.log('existe un usuario activo');
+      aparece();
+      // User is signed in.
+      var displayName = user.displayName;
+
+      var email = user.email;
+      console.log(email);
+      var emailVerified = user.emailVerified;
+      var photoURL = user.photoURL;
+      var isAnonymous = user.isAnonymous;
+      var uid = user.uid;
+      var providerData = user.providerData;
+      // ...
+    } else {
+      // User is signed out.
+      console.log('no existe un usuario activo');
+      // ...
+    }
+  });
+}
+observador();

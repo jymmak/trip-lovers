@@ -12,9 +12,19 @@
   <link href="../assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link rel="stylesheet" href="../css/registerlogin.css">
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script src="https://trip-lovers.firebaseapp.com/__/auth/handler"></script>
-
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+      authDomain: "trip-lovers.firebaseapp.com",
+      databaseURL: "https://trip-lovers.firebaseio.com",
+      projectId: "trip-lovers",
+      storageBucket: "trip-lovers.appspot.com",
+      messagingSenderId: "234184574226"
+    };
+    firebase.initializeApp(config);
+  </script>
 </head>
 
 <body class="vh-100">
@@ -43,87 +53,44 @@
                 <!-- Iniciar Sesion -->
                 <div id="iniciar-sesion">
                   <h1>Iniciar Sesión</h1>
-                  <form action="#" method="post">
-                      <div class="contenedor-input  email-ingreso">
-                          <label>
-                            Email
-                            <span class="req">*</span>
-                          </label>
-                          <input type="email" required>
-                        </div>
-
-                    <div class="contenedor-input pass-ingreso">
-                      <label>
-                        Contraseña
-                        <span class="req">*</span>
-                      </label>
-                      <input type="password" required>
-                      <br>
-                    </div>
-                    <p class="forgot">
-                      <a href="#">Se te olvidó la contraseña?</a>
-                    </p>
-                    <input type="submit" class="button button-block send" value="Iniciar Sesión">
-                    <div class="row">
-                        <div class="col-xs">
-                            <div class="box">
-                                <div class="row">
-                                    <div class="col-xs">
-                                        <button onclick="facebook()" class="btn btn-login btn-lg btn-block btn-face" type="submit">
-                                            <i class="fa fa-facebook" aria-hidden="true"></i>Inicia con Facebook</button>
-                                          <button onclick="google()" class="btn btn-login btn-lg btn-block btn-google" type="submit">
-                                            <i class="fa fa-google" aria-hidden="true"></i>Inicia con Google</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                  </form>
+                  <input id="email2"  type="email" placeholder="Ingresa email">
+                  <input id="contrasena2" type="password" placeholder="Ingresa contraseña">
+                  <button onclick = 'ingreso()'>Acceder</button>
                 </div>
-
-
-                <!-- Registrarse -->
-                <div id="registrarse">
+               <!-- Registrarse -->
+               <div id="registrarse">
                   <h1>Registrarse</h1>
                   <form action="#" method="post">
                     <div class="fila-arriba">
                       <div class="contenedor-input">
-                        <label>
-                          Nombre
-                          <span class="req">*</span>
-                        </label>
-                        <input type="text" required>
-                      </div>
-                  
-                      <div class="contenedor-input  email-res">
-                        <label>
-                          Email
-                          <span class="req">*</span>
-                        </label>
-                        <input type="email" required>
-                      </div>
-                      <div class="contenedor-input pass-res">
-                        <label>
-                          Contraseña
-                          <span class="req">*</span>
-                        </label>
-                        <input type="password" required>
+                        <input required type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
                       </div>
 
-                      <input type="submit" class="button button-block send2" value="Registrarse">
+                      <div class="contenedor-input  email-res">
+
+                        <input required type="email" class="form-control" id="email" placeholder="Ingresa email">
+                      </div>
+                      <div class="contenedor-input pass-res">
+                        <input required type="password" class="form-control" id="pass" placeholder="Ingresa contraseña">
+
+                      </div>
+                      <div class="contenedor-input">
+                        <input required type="city" class="form-control" id="city" placeholder="Ciudad">
+                      </div>
+
+                      <input onclick='registrar()' type="submit" value="Registrarse">
+
                   </form>
                   </div>
-                </div>
+
               </div>
             </div>
+
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
 
+  </section>
 
 
   <!-- Bootstrap core JavaScript-->
@@ -131,8 +98,8 @@
   <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../js/app.js"></script>
   <script src="../js/login.js"></script>
-  <script src="../js/face.js"></script>
-  <script src="../js/google.js"></script>
+
+
 
 
 
