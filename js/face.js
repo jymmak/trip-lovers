@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+/*
   var provider = new firebase.auth.FacebookAuthProvider();
 
   function facebook() {

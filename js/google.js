@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var provider = new firebase.auth.GoogleAuthProvider();
+ /* var provider = new firebase.auth.GoogleAuthProvider();
   
   function google() {
     firebase.auth().signInWithPopup(provider)
