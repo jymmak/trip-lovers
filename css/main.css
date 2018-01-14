@@ -14,25 +14,17 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background-color: black;
-  height: 20vh;
+/*---- Splash----*/
+
+header.masthead {
+  position: relative;
+  background-color: #1d809f;
+  padding-top: 5em;
+  padding-bottom: 5em; 
 }
 
-/*---- Splash----*/
-#splash{
-  background: #051072; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #051072 0%, #0f4dd1 64%, #0de0e0 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,#051072 0%,#0f4dd1 64%,#0de0e0 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #051072 0%,#0f4dd1 64%, #0de0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', endColorstr='#de47ac',GradientType=1 );
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-  z-index: 3;
- height: 100vh;
+header.masthead h1 {
+  font-size: 2rem; 
 }
 
 /*---- views search-transport ----*/
@@ -521,3 +513,4 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 .phrase{
   font-size: 13px;
 }
+
