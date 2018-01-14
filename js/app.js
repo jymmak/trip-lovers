@@ -23,14 +23,6 @@ function verificar() {
   });
 }
 
-function aparece() {
-  var contenido = document.getElementById('contenido');
-  contenido.innerHTML = `
-    <h4>Se envio un correo para validar tu cuenta</h4>
-    <h4>Clickea el boton para dirigirte a la vista principal</h4>
-  <button class="btn btn-success btn-lg btn-principal"><a class="white" href="../views/sesion.html">PRINCIPAL</a></button>
-  `;
-}
 
 function ingreso() {
   var email2 = document.getElementById('email2').value;
