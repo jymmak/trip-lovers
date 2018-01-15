@@ -97,6 +97,11 @@ header.masthead h1 {
   padding: 2em;
 }
 
+/*---- Styles friends.html Section Friends----*/
+
+
+
+
 /*----- General -----*/
 html {
   background-color: white;
@@ -458,7 +463,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 992px) {
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
-    background: #456d86;
+    background: #1d809f;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
     color: white !important;
@@ -499,7 +504,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 992px) {
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav {
-    background: white;
+    background: #1d809f;
   }
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a {
     color: red important;
