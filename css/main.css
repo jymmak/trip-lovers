@@ -2,13 +2,14 @@
 
 header.masthead {
   position: relative;
-  background-color: #1d809f;
-  padding-top: 5em;
-  padding-bottom: 5em; 
+  background: url('../assets/images/fondo.jpg');
+  background-position: 20% 30%;
+  padding: 5em 0 ;
 }
 
 header.masthead h1 {
   font-size: 2rem; 
+  color: #13232f;
 }
 
 .service-icon {
@@ -31,10 +32,6 @@ header.masthead h1 {
   background-position: 20% 60%;
   height: 100vh;
   opacity:0.9; 
-}
-
-.back-sesion{
-  background-color: #1d809f;
 }
 
 .container-forms {
