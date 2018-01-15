@@ -1,5 +1,26 @@
 $(document).ready(begin);
 function begin() {
+  // Seleccionarr imagen y cargarlo
+  function handleFileSelect(event) {
+    var input = event.target;
+    var reader = new FileReader();
+    reader.onload = function() {
+      var dataURL = reader.result;
+      var list = document.getElementById('list');
+      list.src = dataURL;
+      $('img').css({'height': '70px', 'padding-bottom': '20px'});
+      $('.close span').removeClass('display');
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
+  document.getElementById('add-image').addEventListener('change', handleFileSelect);
+
+  $('.close span').click(function() {
+    $('.close span').toggleClass('display');
+    $('#list').removeAttr('src', '');
+    // $('#list').removeAttr('style', '');
+  });
+
   function getNews() {
     return socialNetData;
   }

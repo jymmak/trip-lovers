@@ -618,3 +618,43 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 textarea {
   resize: none;
 }
+
+/*****COMPARTIR VIAJES******/
+.btn-add-image [type="file"] {
+  border: 1px solid red;
+  width: 25px;
+  height: 25px;
+  /* border-radius: 25px; */
+  opacity: 0;
+
+
+}
+
+.btn-add-image {
+  position: relative;
+  width: 30px;
+  border-radius: 25px;
+  height: 30px;
+  background-color: #d97016;
+  color: white;
+}
+
+.btn-add-image i {
+  position: absolute;
+  top:5px;
+  left: 5px;
+  padding: 2px;
+  border-radius: 25px;
+
+}
+
+.display{
+  display: none;
+}
+
+/***Perfil*/
+.image-perfil {
+  height: 50%;
+  /* width: 90% */
+  /* padding: 5 */
+}
