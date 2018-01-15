@@ -15,6 +15,7 @@ $(document).ready(function () {
       message: msg
     });
 
+   
   });
 
   // obtiene data de la base de datos
