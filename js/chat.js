@@ -32,7 +32,7 @@ $(document).ready(function() {
     contChat.html('');
     snapshot.forEach(function(elm) {
       var element = elm.val();
-      console.log();
+      // console.log();
       var txtName = element.name;
       var txtMsg = element.message;
       var time = element.time;

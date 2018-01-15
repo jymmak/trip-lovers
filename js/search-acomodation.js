@@ -45,7 +45,7 @@ function begin() {
     if ($(this).val()) {
       var searchHotel = $(this).val(); // en la variable searchPlace se almacena el valor del input
       $('.card-place>div').each(function(index) { // hace un recorrido con el each todos los div de los card-place
-        console.log($(this));
+        // console.log($(this));
         if ((arrPlace[index]).toUpperCase() === searchHotel.toUpperCase()) { // Comparacion del arraPlace con el valor ingresado
           $('.card-place div').hide(); // ocultatar todos los paneles de la lista
           $(this).show();// mostrar solo lo que cumple con la condicion

@@ -1,6 +1,6 @@
 $(document).ready(begin);
 function begin() {
-  console.log(socialNetData);
+  // console.log(socialNetData);
   function getFriends() {
     return socialNetData;
   }
