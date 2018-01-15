@@ -5,4 +5,5 @@ function begin() {
     window.location.href = '../index.html';
   }
   $('.sign-off').click(singOff);
+
 }
