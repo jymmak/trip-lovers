@@ -160,8 +160,17 @@ body.fixed-nav {
 .content-wrapper {
   min-height: calc(100vh - 56px);
   padding-top: 1rem;
+  font-size: 1rem;
 }
 
+.plane{
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  color: #1d809f;
+}
+#btn-send{
+  background-color: #1d809f;
+}
 .smaller {
   font-size: 0.7rem;
 }
