@@ -5,7 +5,7 @@ function registrar() {
 
   firebase.auth().createUserWithEmailAndPassword(email, pass)
     .then(function () {
-      window.location.href = '../views/search-places.html';
+      window.location.href = '../views/search-acomodation.html';
     })
     .catch(function (error) {
       // Handle Errors here.
@@ -30,7 +30,7 @@ function ingreso() {
 
   firebase.auth().signInWithEmailAndPassword(email2, contrasena2)
     .then(function () {
-      window.location.href = '../views/search-places.html';
+      window.location.href = '../views/search-acomodation.html';
 
     }).catch(function (error) {
       // Handle Errors here.
@@ -45,7 +45,6 @@ function observador() {
   firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
       console.log('existe un usuario activo');
-      aparece();
       // User is signed in.
       var displayName = user.displayName;
 
