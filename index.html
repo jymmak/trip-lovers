@@ -12,14 +12,25 @@
   <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-  
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDh8a6XaxaCeFh9tatmoNMjB3Xh44A8q5s",
+      authDomain: "trip-lovers.firebaseapp.com",
+      databaseURL: "https://trip-lovers.firebaseio.com",
+      projectId: "trip-lovers",
+      storageBucket: "trip-lovers.appspot.com",
+      messagingSenderId: "234184574226"
+    };
+    firebase.initializeApp(config);
+  </script>
 
 </head>
 
 <body>
 
-  <!--Sección Splash-->
+  <!--Splash Section-->
   <header class="masthead text-white text-center">
     <div class="container">
       <div class="row">
@@ -54,7 +65,7 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
         <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-location-pin"></i>
+          <i class="icon-plane"></i>
         </span>
         <h6>
           <strong>Transportes</strong>
