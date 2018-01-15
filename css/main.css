@@ -543,18 +543,6 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
   padding-bottom: 20%;
 }
 
-.chat{
-	height: 400px;
-	background-color: #E7E4DD;
-  border-top-right-radius: 5vh;
-  border-top-left-radius: 5vh;
-  padding: 5vh;
-}
-
-#send{
-  background-color: #456d86;
-  color: white;
-}
 
 .media img {
   height: 50px;
