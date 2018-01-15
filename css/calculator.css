@@ -1,0 +1,81 @@
+.caltrans{
+  padding-left: 2.5rem;
+  font-size: 2rem;
+}
+#calculator {
+  width: 16rem;
+  height: 20rem;
+  background-color: lightseagreen;
+  margin: 4rem auto;
+  font-size: 2rem;
+}
+
+.top span.clear {
+float:left;
+box-shadow:0 4px #ff7c87;
+color:#FFF;
+}
+
+.top .input {
+height:3rem;
+width:9rem;
+padding-right: 1rem;
+float:right;
+color:#FFF;
+line-height: 3rem;
+text-align:right;
+letter-spacing:1px;
+border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.keys,.top {
+overflow:hidden;
+}
+
+.keys span,.top span.clear {
+float:left;
+cursor:pointer;
+width:4rem;
+height:4rem;
+line-height: 4rem;
+color:#fff;
+text-align:center;
+user-select:none;
+transition: background-color .2s ease;
+  border-right: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.keys span.operator {
+background:rgba(255,255,255,0.2);
+border-right: 0;
+  color: blue;
+}
+
+.keys span.equals {
+color:blue;
+}
+
+.keys span:hover {
+
+color:#FFF;
+}
+
+.keys span.equals:hover {
+
+color:#fff;
+}
+
+.top span.clear:hover {
+
+color:#FFF;
+}
+
+.keys span:active {
+}
+
+.keys span.equals:active {
+}
+
+.top span.clear:active {
+}
