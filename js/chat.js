@@ -17,6 +17,7 @@ $(document).ready(function() {
       message: msg,
       time: time
     });
+
   });
 
   // obtiene data de la base de datos
