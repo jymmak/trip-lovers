@@ -1,6 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-  $('.contenedor-formularios').find('input, textarea').on('keyup blur focus', function (e) {
+  $('.contenedor-formularios').find('input, textarea').on('keyup blur focus', function(e) {
 
     var $this = $(this),
       label = $this.prev('label');
@@ -28,7 +28,7 @@ $(document).ready(function () {
 
   });
 
-  $('.tab a').on('click', function (e) {
+  $('.tab a').on('click', function(e) {
 
     e.preventDefault();
 
