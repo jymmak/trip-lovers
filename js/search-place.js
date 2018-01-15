@@ -22,7 +22,7 @@ function begin() {
                             '<a href="#">' + arrPlace[i] + '</a>' +
                           '</h6>' +
                         '</div>' +
-                      '</div>';$(document).ready(begin);
+                      '</div>';
       listPlaces += cardPlace;
     }
     $boxPlace.html(listPlaces);
