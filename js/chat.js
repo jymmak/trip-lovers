@@ -4,9 +4,14 @@ $(document).ready(function() {
   var btnSend = $('#btn-send');
   var contChat = $('#content-chat');
 
+  // ajustar textarea
+  var ajustarTextArea = function(event) {
+    event.target.style.height = '1px';
+    event.target.style.height = (27 + event.target.scrollHeight) + 'px';
+  }
+  $('textarea').keyup(ajustarTextArea);
 
   // mandar información a firebase para el chat
-
   btnSend.on('click', function() {
     var name = nameUserChat.val();
     var msg = valTextChat.val();
@@ -17,7 +22,9 @@ $(document).ready(function() {
       message: msg,
       time: time
     });
-
+    // valTextChat.value="";
+    valTextChat.val('');
+    valTextChat.focus();
   });
 
   // obtiene data de la base de datos
@@ -39,11 +46,8 @@ $(document).ready(function() {
         'class': 'time',
       }).text(time);
       tName.append(tMsg);
-
       contChat.prepend(tName);
       contChat.prepend(tTime);
-      console.log(moment().format('LTS'));
-
     });
   });
 });

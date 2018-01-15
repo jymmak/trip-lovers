@@ -614,3 +614,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
   font-size: 10px;
   text-align: right;
 }
+
+textarea {
+  resize: none;
+}
