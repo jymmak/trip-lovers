@@ -13,7 +13,7 @@ function begin() {
       $('.close span').removeClass('display');
     };
     reader.readAsDataURL(input.files[0]);
-    console.log(input.files[0])
+    // console.log(input.files[0])
     // StorageRef.child('images/' + imageUpload.name).put(input.files[0]);
   }
   document.getElementById('add-image').addEventListener('change', handleFileSelect);
@@ -39,7 +39,7 @@ function begin() {
          '</h6><span class="like"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> ' + sharePhotos[sharePhoto].like + '</span></div></div>' ;
     }
     $boxNews.html(list);
-  })
+  });
 
 
   // Get comentario
@@ -50,13 +50,15 @@ function begin() {
       like: 0,
     }
     // console.log(like);
-    db.push().set(dataSharePhoto)
+    db.push().set(dataSharePhoto);
+    $('#coment').val('');
+    $('#coment').focus();
   }
 
   $('.btn-postear').click(savesharePhoto);
 
   $('.like').on('click', function(event) {
-    console.log('');
+    // console.log('');
   })
 
 /*

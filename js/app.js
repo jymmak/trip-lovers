@@ -13,7 +13,7 @@ function registrar() {
       var errorMessage = error.message;
       // ...
     });
-  console.log('estas registrado');
+  // console.log('estas registrado');
 }
 
 function verificar() {
