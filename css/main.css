@@ -35,29 +35,13 @@ header.masthead h1 {
 }
 
 .container-forms {
-  background: #fff;
+  background: rgb(231, 236, 238);
   margin-top: 10%;
+  height: 80vh;
   border-radius: 10px;
 }
 
-.container-tabs {
-  background-color: #456d86;
-  list-style: none;
-  padding: 0.5em 2em;
-}
-
-.container-tabs li {
-  width: 30%;
-  display: inline-block;
-}
-
-.container-tabs li a {
-  color: #fff;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-#name, #email, #pass, #city, #email2, #contrasena2{
+#name, #email, #pass, #email2, #contrasena2{
   font-size: 1em;
   padding: 5px 10px;
   background: none;
@@ -69,27 +53,24 @@ header.masthead h1 {
   transition: all 0.5s ease;
   border-radius: 5px;
 }
-
-#section-login {
-  padding: 1em 2em;
+.logo{
+  padding-top: 8%;
 }
 
 .contenido-tab > div:last-child {
   display: none;
 }
 
-.forgot {
-  margin-top: -45px;
-  text-align: left;
-  margin-left: 5em;
-  margin-bottom: 2em;
+.forgot{
+  margin-top: 6%;
 }
-
 .contenedor-input {
   position: relative;
-  margin: 20px 0;
+  margin: 25px 0;
 }
-
+.text-center{
+  margin-top: 7%;
+}
 /*---- Styles messages.html Section Chat----*/
 
 .chat{

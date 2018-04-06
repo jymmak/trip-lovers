@@ -38,30 +38,35 @@
             </div>
             <div class="geek-gray-bg w-100">
               <div class="page-content col-12 d-flex flex-column align-items-center justify-content-center">
-                <!-- Iniciar Sesion -->
-                <div id="iniciar-sesion">
-                  <h4 class="page-content col-12 d-flex flex-column align-items-center justify-content-center">Iniciar Sesión</h4>
+                <div id="registrarse">
+                  <h4 class="page-content col-12 d-flex flex-column align-items-center justify-content-center">Registrarse</h4>
                   <div action="#" method="post">
                     <div class="fila-arriba">
                       <div class="contenedor-input">
-                        <input required type="email" class="form-control" id="email2" placeholder="Ingresa email">
+                        <input required type="name" class="form-control" id="name" placeholder="Nombre de Usuario">
                       </div>
                       <div class="contenedor-input">
-                        <input required type="password" class="form-control" id="contrasena2" placeholder="Ingresa contraseña">
+                        <input required type="email" class="form-control" id="email" placeholder="Ingresa email">
+                      </div>
+                      <div class="contenedor-input">
+                        <input required type="password" class="form-control" id="pass" placeholder="Ingresa contraseña">
                       </div>
 
-
+                      <div class="form-check mb-3 offset-md-1">
+                        <input type="checkbox" class="form-check-input" id="terms-check" required>
+                        <label class="form-check-label" for="terms-check">Acepto todas las declaraciones en
+                          <a href="#">Términos y condiciones</a>
+                        </label>
+                      </div>
                       <div class=" d-flex flex-column align-items-center justify-content-center">
-                        <button onclick='ingreso()' type="button" class="btn btn-primary">Inicia Sesión</button>
-
+                          <button onclick='registrar()' type="button" class="btn btn-primary">Registrarse</button>
+                      
                       </div>
-                      <p class="forgot">
-                        <a href="#">Se te olvidó la contraseña?</a>
+                      <p class="text-center">¿Ya eres usuario?
+
+                        <a href="sesion.html">Inicia Sesión</a>
                       </p>
-                      <button class="btn btn-primary btn-sm" type="submit" id="fb-login">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>Inicia con Facebook</button>
-                      <button class="btn btn-success btn-sm" type="submit" id="google-login">
-                        <i class="fa fa-google" aria-hidden="true"></i>Inicia con Google</button>
+
 
                     </div>
 
