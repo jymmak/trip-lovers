@@ -5,7 +5,7 @@ var usuarios = null;
 var database = firebase.database();
 var conectadoKey = '';
 var $inifacebook = $('#inifacebook');
-var $loginGoogle = $('#google-login');
+var $inigoogle = $('#inigoogle');
 var $logout = $('.logout');
 $logout.on('click', signOut);
 $inifacebook.on('click', signInFacebook);
@@ -29,24 +29,23 @@ function login(uid, name, email) {
   });
 }
 function signOut() {
-  firebase.auth().onAuthStateChanged(function (user) {
+  firebase.auth().onAuthStateChanged(function(user) {
     database.ref('/connected/' + user.uid).remove();
   });
   firebase.auth().signOut()
-    .then(function (result) {
+    .then(function(result) {
       console.log('Te has desconectado correctamente');
 
       window.location.href = '../index.html';
-    })
-
+    });
 };
 function signInFacebook() {
   var provider = new firebase.auth.FacebookAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function (result) {
+  firebase.auth().signInWithPopup(provider).then(function(result) {
     user = result.user;
     console.log(user);
     initApp();
-  }).catch(function (error) {
+  }).catch(function(error) {
     var errorCode = error.code;
     console.log(errorcode);
     var errorMessage = errorMessage;
@@ -58,26 +57,12 @@ function signInFacebook() {
   });
 }
 
-
 function signInGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
-  // Using a redirect.
-  firebase.auth().getRedirectResult().then(function (result) {
-    if (result.credential) {
-      // This gives you a Google Access Token.
-      var token = result.credential.accessToken;
-    }
-    var user = result.user;
+  firebase.auth().signInWithPopup(provider).then(function(result) {
+    user = result.user;
     console.log(user);
     initApp();
-    window.location.href = '../views/search-places.html';
-    // 
+    window.location.href = 'views/home.html';
   });
-
-  // Start a sign in process for an unauthenticated user.
-  var provider = new firebase.auth.GoogleAuthProvider();
-  provider.addScope('profile');
-  provider.addScope('email');
-  firebase.auth().signInWithRedirect(provider);
-
 }
