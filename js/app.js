@@ -29,7 +29,7 @@ function ingreso() {
 
   firebase.auth().signInWithEmailAndPassword(email2, contrasena2)
     .then(function() {
-      window.location.href = 'views/search-places.html';
+      window.location.href = 'views/news.html';
 
     }).catch(function(error) {
       // Handle Errors here.
