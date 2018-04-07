@@ -60,6 +60,7 @@ function signInFacebook() {
 
 function signInGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
+  provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
   firebase.auth().signInWithPopup(provider).then(function (result) {
     user = result.user;
     console.log(user);
