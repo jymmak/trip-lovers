@@ -1,4 +1,3 @@
-
 var user = null;
 var usuariosConectados = null;
 var usuarios = null;
@@ -29,14 +28,25 @@ function login(uid, name, email) {
     email: email
   });
 }
+function signOut() {
+  firebase.auth().onAuthStateChanged(function (user) {
+    database.ref('/connected/' + user.uid).remove();
+  });
+  firebase.auth().signOut()
+    .then(function (result) {
+      console.log('Te has desconectado correctamente');
 
+      window.location.href = '../index.html';
+    })
+
+};
 function signInFacebook() {
   var provider = new firebase.auth.FacebookAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function(result) {
+  firebase.auth().signInWithPopup(provider).then(function (result) {
     user = result.user;
     console.log(user);
     initApp();
-  }).catch(function(error) {
+  }).catch(function (error) {
     var errorCode = error.code;
     console.log(errorcode);
     var errorMessage = errorMessage;
@@ -50,7 +60,7 @@ function signInFacebook() {
 
 function signInGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function(result) {
+  firebase.auth().signInWithPopup(provider).then(function (result) {
     user = result.user;
     console.log(user);
     initApp();
