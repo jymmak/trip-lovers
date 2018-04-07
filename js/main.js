@@ -63,6 +63,6 @@ function signInGoogle() {
     user = result.user;
     console.log(user);
     initApp();
-    window.location.href = 'views/home.html';
+    window.location.href = '../views/search-places.html';
   });
 }
