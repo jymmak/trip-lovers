@@ -52,17 +52,25 @@ header.masthead h1 {
   color: black;
   transition: all 0.5s ease;
   border-radius: 5px;
+  width:100%;
 }
 .logo{
   padding-top: 8%;
 }
 
+
+.boton-acceder{
+  margin-top: 5%;
+}
 .contenido-tab > div:last-child {
   display: none;
 }
 
 .forgot{
   margin-top: 6%;
+}
+.fa-facebook, .fa-google{
+ margin-right:3%;
 }
 .contenedor-input {
   position: relative;
