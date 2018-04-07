@@ -28,27 +28,29 @@ function login(uid, name, email) {
   });
 }
 
-function signInFacebook() {
-  var provider = new firebase.auth.FacebookAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function(result) {
-    user = result.user;
-    console.log(user);
-    initApp();
-  }).catch(function(error) {
-    var errorCode = error.code;
-    console.log(errorcode);
-    var errorMessage = errorMessage;
-    console.log(errorMessage);
-    var email = error.email;
-    console.log(email);
-    var credential = error.credential;
-    console.log(credential);
-  });
-}
+var provider = new firebase.auth.FacebookAuthProvider();
 
+// opcionalmente modifico el scope
+provider.addScope('user_friends');
+
+// accedo al servicio de autenticación
+var authService = firebase.auth();
+
+// evento para el botón de login con facebook
+document.getElementById('inifacebook').addEventListener('click', function () {
+  // autentico con Facebook
+  authService.signInWithPopup(provider)
+    .then(function (result) {
+      //todo correcto
+      console.log('autenticado usuario ', result.user);
+    })
+    .catch(function (error) {
+      console.log('Detectado un error:', error);
+    });
+})
 function signInGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function(result) {
+  firebase.auth().signInWithPopup(provider).then(function (result) {
     user = result.user;
     console.log(user);
     initApp();
