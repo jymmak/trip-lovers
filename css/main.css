@@ -62,9 +62,7 @@ header.masthead h1 {
 .boton-acceder{
   margin-top: 5%;
 }
-.contenido-tab > div:last-child {
-  display: none;
-}
+
 
 .forgot{
   margin-top: 6%;
@@ -658,4 +656,38 @@ textarea {
 .btn-grayLab {
   color: darkslategray;
   font-size: 1rem;
+}
+@media(min-width: 0) and (max-width: 767px) {
+.logo{
+width: 15%;
+padding-top: 3%;
+}
+.container-forms{
+  height: 94%;
+}
+.page-content{
+  margin-top: 3%; 
+}
+.btn-primary, .btn-danger{
+  margin-top: 6%; 
+}
+.caltrans{
+  margin-left: -6%; 
+}
+
+}
+/*Tablets*/
+@media(min-width: 768px) and (max-width: 1024px) { 
+  .btn-primary, .btn-danger{
+    margin-top: 6%; 
+  }
+}
+/*Desktop*/
+@media(min-width: 1025px) and (max-width:1427px){
+  .btn-primary, .btn-danger{
+    margin-top: 6%; 
+  }
+  .caltrans{
+    margin-left: -3%; 
+  }
 }
