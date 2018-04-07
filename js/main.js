@@ -1,3 +1,4 @@
+
 var user = null;
 var usuariosConectados = null;
 var usuarios = null;
@@ -6,7 +7,8 @@ var database = firebase.database();
 var conectadoKey = '';
 var $inifacebook = $('#inifacebook');
 var $inigoogle = $('#inigoogle');
-
+var $logout = $('.logout');
+$logout.on('click', signOut);
 $inifacebook.on('click', signInFacebook);
 $inigoogle.on('click', signInGoogle);
 function initApp() {
@@ -27,30 +29,38 @@ function login(uid, name, email) {
     email: email
   });
 }
+function signOut() {
+  firebase.auth().onAuthStateChanged(function(user) {
+    database.ref('/connected/' + user.uid).remove();
+  });
+  firebase.auth().signOut()
+    .then(function(result) {
+      console.log('Te has desconectado correctamente');
 
-var provider = new firebase.auth.FacebookAuthProvider();
-
-// opcionalmente modifico el scope
-provider.addScope('user_friends');
-
-// accedo al servicio de autenticación
-var authService = firebase.auth();
-
-// evento para el botón de login con facebook
-document.getElementById('inifacebook').addEventListener('click', function () {
-  // autentico con Facebook
-  authService.signInWithPopup(provider)
-    .then(function (result) {
-      //todo correcto
-      console.log('autenticado usuario ', result.user);
-    })
-    .catch(function (error) {
-      console.log('Detectado un error:', error);
+      window.location.href = '../index.html';
     });
-})
+};
+function signInFacebook() {
+  var provider = new firebase.auth.FacebookAuthProvider();
+  firebase.auth().signInWithPopup(provider).then(function(result) {
+    user = result.user;
+    console.log(user);
+    initApp();
+  }).catch(function(error) {
+    var errorCode = error.code;
+    console.log(errorcode);
+    var errorMessage = errorMessage;
+    console.log(errorMessage);
+    var email = error.email;
+    console.log(email);
+    var credential = error.credential;
+    console.log(credential);
+  });
+}
+
 function signInGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(provider).then(function (result) {
+  firebase.auth().signInWithPopup(provider).then(function(result) {
     user = result.user;
     console.log(user);
     initApp();
