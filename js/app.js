@@ -4,7 +4,7 @@ function registrar() {
 
   firebase.auth().createUserWithEmailAndPassword(email, pass)
     .then(function() {
-      window.location.href = 'views/news.html';
+      window.location.href = '../views/search-places.html';
     })
     .catch(function(error) {
       // Handle Errors here.
@@ -29,7 +29,7 @@ function ingreso() {
 
   firebase.auth().signInWithEmailAndPassword(email2, contrasena2)
     .then(function() {
-      window.location.href = 'views/news.html';
+      window.location.href = '../views/search-places.html';
 
     }).catch(function(error) {
       // Handle Errors here.
